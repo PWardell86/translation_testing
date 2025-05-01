@@ -1,0 +1,2232 @@
+{
+    "DialogAlternateIdPrivacyDisclaimer": {
+      "vue": {
+        "header": "Privacy and Security Disclaimer",
+        "auth_desc1": "Ocean typically authorizes patients for certain actions using a combination of their health number, name, and date of birth. This authorization is reasonably secure due to the inherent privacy of the patient’s health number.",
+        "auth_desc2": "Since health numbers are not always available in certain clinical environments, your site may opt in to support an alternate identifier, such as a student number or chart number.",
+        "auth_desc3": "These alternate identifiers should be relatively private and difficult to guess for a given patient. Otherwise, unauthorized individuals could potentially masquerade as the patient using this identifier, in combination with the patient’s surname and date of birth.",
+        "auth_desc5": "By proceeding to activate this feature, you are confirming on behalf of your clinic that you understand and accept the risk of using an alternate identifier.",
+        "accept_button": "Accept",
+        "decline_button": "Decline",
+        "auth_desc4": "The unauthorized individual could potentially exploit this access to:{*}obtain the patient’s email address or other contact information as part of a privacy breach{*}commit unauthorized actions under the guise of the patient, such as booking an appointment"
+      }
+    },
+    "DialogFormBrowser": {
+      "vue": {
+        "header": "Select an eForm",
+        "search_label": "Searching",
+        "search_placeholder": "Form name",
+        "my_forms_only": "My Forms Only",
+        "language_label": "Language",
+        "no_matching_forms": "No matching forms found",
+        "favourites": "Favourites",
+        "no_favourite_forms": "No favourite forms",
+        "cancel_button": "Cancel"
+      }
+    },
+    "DialogUnsavedChanges": {
+      "vue": {
+        "header": "Unsaved Changes",
+        "warning_message": "You have unsaved changes. If you leave this page without saving your changes will be lost.",
+        "continue_editing_button": "Continue Editing – Stay On Page",
+        "leave_page_button": "Leave Page"
+      }
+    },
+    "FileUploadErrorDialog": {
+      "vue": {
+        "error_header": "Error",
+        "select_different_file_button": "Select Different File",
+        "ok_button": "OK"
+      }
+    },
+    "FormBrowser": {
+      "vue": {
+        "label": "Booking Form",
+        "placeholder": "Select a Booking Form",
+        "no_options_available": "No forms available.",
+        "add_option": "Add Form",
+        "no_matching_options": "No matching forms found.",
+        "search_placeholder": "Search forms"
+      }
+    },
+    "ListingDialogFormBrowser": {
+      "vue": {
+        "header": "Select an Ocean eForm",
+        "search_placeholder": "Search forms",
+        "form_language_label": "Form language",
+        "my_forms_only": "My forms only",
+        "no_matching_forms": "No matching forms found",
+        "cancel_button": "Cancel",
+        "any_language": "Any language",
+        "english": "English",
+        "french": "French",
+        "arabic": "Arabic",
+        "armenian": "Armenian",
+        "italian": "Italian",
+        "chinese": "Chinese"
+      }
+    },
+    "LogoFileUploader": {
+      "vue": {
+        "logo": "Logo",
+        "max_file_upload_size": "Maximum file upload size: 10 MB",
+        "failed_to_upload_error": "Failed to upload logo file, please try again."
+      }
+    },
+    "LogoPreview": {
+      "vue": {
+        "logo_alt": "Logo",
+        "hide_logo": "Hide logo",
+        "view_logo": "View logo"
+      }
+    },
+    "MessagesSmsPreview": {
+      "vue": {
+        "mobile_phone_and_email": "mobile phone and email",
+        "mobile_phone_only": "mobile phone only",
+        "english": "English",
+        "french": "French",
+        "sms_length_warning": "Your text message reminder may exceed the character allowance. We suggest shortening your Organization Name or {link_start}reviewing our support documentation for other possible solutions.{link_end}",
+        "language_specified_in_emr": "The patient’s preferred language (as specified in the EMR) will be used. For details, see:",
+        "patient_has_and_prefers": "If patient has {phone_or_email} and prefers {language}",
+        "edit_org_name_msg": "You can edit your organization name in the {link}Admin page{link} under the Organization tab."
+      }
+    },
+    "MessagesTemplatePreview": {
+      "vue": {
+        "email_preview": "Email Preview",
+        "subject": "Subject:",
+        "secure_content_settings": "Secure Content Settings",
+        "secure_content_access": "Secure content is accessed via the {weblink} in the email template.",
+        "patient_must_enter": "The patient must enter their {item_list} to view secure messages and forms.",
+        "overdue_after_days": "Overdue if no response after {days} days.",
+        "link_expiry_days": "Link will expire after {days} days.",
+        "secure_message": "Secure Message",
+        "allow_responses": "Allow patient responses",
+        "allow_attachments": "Allow file attachments",
+        "notify_when_viewed": "Notify me when message is viewed",
+        "eforms": "eForms",
+        "notify_on_completion": "Notify me when forms are complete",
+        "access_password": "access password",
+        "health_number": "health number",
+        "emr_id_number": "EMR ID number",
+        "birth_date": "birth date",
+        "note": "Note: Please use the {link}Template Manager{link} to edit your templates."
+      }
+    },
+    "TheNavigationBar": {
+      "vue": {
+        "home": "home",
+        "ocean_logo_alt": "Ocean",
+        "menu_title": "Menu",
+        "settings": "Settings",
+        "tour": "Tour"
+      }
+    },
+    "TheNavigationBarAccountMenu": {
+      "vue": {
+        "account": "Account",
+        "user_settings": "User Settings",
+        "my_account": "My Account",
+        "billing": "Billing",
+        "delegates": "Delegates",
+        "site_number": "Site # {number}",
+        "make_default": "Make Default",
+        "supported_sites": "Supported Sites",
+        "cmd_admin": "CMD Admin",
+        "support": "Support",
+        "sign_out": "Sign Out",
+        "default": "Default",
+        "supported": "Supported"
+      }
+    },
+    "SiteSelector": {
+      "vue": {
+        "sort_by_name": "Sort By Name",
+        "sort_by_number": "Sort By Number",
+        "search_label": "Search",
+        "search_placeholder": "Site name or number",
+        "no_matching_sites": "No matching sites.",
+        "show_all": "Show all",
+        "default": "Default",
+        "switch_sites": "Switch Sites"
+      }
+    },
+    "TheNavigationBarAlertsMenu": {
+      "vue": {
+        "alerts": "Alerts",
+        "no_alerts": "No alerts to show"
+      }
+    },
+    "TheNavigationBarProductLauncher": {
+      "vue": {
+        "patient_engagement": "Patient Engagement",
+        "research": "Research",
+        "ocean_provider_network": "Ocean Provider Network",
+        "healthmap": "Healthmap",
+        "quick_links": "Quick Links",
+        "cloud_connect": "Cloud Connect",
+        "resource_library": "Resource Library",
+        "support": "Support"
+      }
+    },
+    "DialogEnableSiteRepositoryManagement": {
+      "vue": {
+        "please_confirm": "Please Confirm",
+        "cancel": "Cancel",
+        "enable_contribution": "Yes - Enable Repository Contribution",
+        "stop_contribution": "Yes - Stop Repository Contribution",
+        "allow_contribution": "Are you sure you want to allow {siteName} to contribute data to the repository?",
+        "stop_contribution_description": "Are you sure you want to stop {siteName} from contributing data to the repository?"
+      }
+    },
+    "LicenceCoverageItems": {
+      "vue": {
+        "description": "Select the product(s) below to assume responsibility for the licence fees for this site. Upon selection, the Regional Authority will incur monthly charges for any licence fees generated by the site.",
+        "label": "Licence Coverage",
+        "checkbox_label": "Licence Coverage",
+        "already_assumed": "A different Regional Authority has already assumed responsibility for this product's licence fees.",
+        "patient_messaging": "Patient Messaging",
+        "online_booking": "Online Booking"
+      }
+    },
+    "ListingApprovalSettings": {
+      "vue": {
+        "health_region": "Health Region",
+        "number_of_clinicians": "Number Of Clinicians",
+        "clinicians_description_1": "Please enter the number of clinicians authorized to receive eReferrals and/or eConsults at this directory listing.",
+        "clinicians_description_2": "Clinicians do not need an Ocean user account at the site to be counted.",
+        "clinicians_description_3": "Do NOT include clinicians that have an individual directory listing accepting referrals.",
+        "clinicians_description_4": "Do NOT include administrative staff.",
+        "comment": "Comment",
+        "save": "Save",
+        "cancel": "Cancel",
+        "page_title": "Edit Details for {title}",
+        "clinicians_count_error": "Please specify the number of clinicians for this listing.",
+        "positive_number_error": "Please specify a positive number.",
+        "whole_number_error": "Please specify a whole number.",
+        "comment_error": "Please comment on why this listing has 0 clinicians."
+      }
+    },
+    "SiteApprovalsSettings": {
+      "vue": {
+        "repository_contribution_label": "Service Request Repository Contribution",
+        "repository_contribution_description": "Allow all Regional Authority Approved Listings under the Site to contribute to the repository.",
+        "cover_site_for_eorders": "Enable Licenses for eOrder Senders",
+        "eorder_coverage_description": "Allow all {count} Physicians and/or Nurse Practitioners at this site to send eOrders to any Laboratory listings approved by this Regional Authority",
+        "save": "Save",
+        "cancel": "Cancel",
+        "enabled": "Enabled",
+        "not_enabled": "Not enabled",
+        "page_title": "Manage Site Agreement for {siteName}"
+      }
+    },
+    "ActiveSchedulesCountMessage": {
+      "vue": {
+        "licensed_emr_schedules_msg": "This site has {numberOfOnlineBookingLicences} licensed EMR schedule. | This site has {numberOfOnlineBookingLicences} licensed EMR schedules.",
+        "add_or_remove_licences": "To add or remove licences visit the {link}Licence Management{link} page."
+      }
+    },
+    "AppointmentDayTimeRestrictions": {
+      "vue": {
+        "restrictions_added": "The following restrictions will be added to the schedule provided by your EMR:",
+        "between": "{list_of_weekdays} between {start_time} and {end_time}",
+        "edit": "Edit",
+        "remove": "Remove",
+        "no_restrictions": "No restrictions have been added. Appointments can be booked according to the schedule provided by your EMR.",
+        "add_new_restriction": "Add New Restriction",
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday"
+      }
+    },
+    "AppointmentTypeConfiguration": {
+      "vue": {
+        "appointment_label": "Appointment Label",
+        "duration": "Duration",
+        "unit_minutes": "min",
+        "location": "Location",
+        "medium": "Medium",
+        "select_medium": "Select Medium",
+        "emr_appointment_type": "EMR Appointment Type",
+        "select_appointment_type": "Select Appointment Type",
+        "support_article": "this support article",
+        "remove_appointment_type": "Remove Appointment Type",
+        "onsite": "On Site",
+        "virtual": "Virtual",
+        "offsite": "Offsite",
+        "in_person": "In Person",
+        "telephone_call": "Telephone Call",
+        "virtual_visit_video": "Virtual Visit Video",
+        "home_visit": "Home Visit",
+        "unspecified": "Unspecified",
+        "add_appointment_label": "Add appointment label",
+        "add_duration": "Add duration",
+        "select_emr_appointment_type": "Select EMR appointment type",
+        "select_different_emr_appointment_type": "Select a different EMR Appointment Type. For details on appointment type restrictions, refer to ",
+        "select_medium_error": "Select medium"
+      }
+    },
+    "AppointmentTypeRestrictionConfiguration": {
+      "vue": {
+        "edit_restrictions": "Edit Restrictions",
+        "save_restrictions": "Save Restrictions",
+        "remove": "Remove",
+        "only_book_in_list": "Only book in {list}",
+        "min_days_apart": "Appointments must be booked {days} days apart",
+        "only_book_in_time_slots": "Only book in time slots with the following {term} applied:",
+        "emr_time_slot": "EMR Time Slot",
+        "please_remove_label_from_list": "Please remove '{label}' from the list.",
+        "refer_to_support_article": "For details on appointment type restrictions, refer to {link_start}this support article.{link_end}",
+        "enable_max_visits": "Enable restriction by maximum number of visits of this type per day",
+        "num_visits_per_day": "Number of visits per day",
+        "visits_per_day_units": "visits per day",
+        "weekday": "Weekday",
+        "remove_restriction": "Remove Restriction",
+        "add_restriction": "Add Restriction",
+        "enable_min_days": "Enable restriction by minimum days between appointment bookings of this type",
+        "prevent_booking_within": "Prevent patients from booking another {label} appointment within",
+        "min_days_until_booking": "Minimum days until another booking",
+        "days_units": "days",
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday",
+        "maximum_of_per_day": "Maximum of {n} per {day}",
+        "no_pssuite_emr_appointment_types": "No appointment types in your EMR contain \"online booking\" or \"/ob\"",
+        "no_appointment_types_found": "No appointment types found",
+        "no_emr_appointment_suggestions": "No EMR appointment suggestions found",
+        "select_appointment_suggestion": "Select Appointment Suggestion",
+        "select_appointment_type": "Select Appointment Type",
+        "ps_suite_placeholder": "PS Suite placeholder appointment type | PS Suite placeholder appointment types",
+        "oscar_pro_template_code": "OSCAR Pro Template Code | OSCAR Pro Template Codes",
+        "med_access_template": "Med Access Template | Med Access Templates",
+        "accuro_appointment_suggestion": "Accuro Appointment Suggestion | Accuro Appointment Suggestions",
+        "appointment_suggestion": "appointment suggestion | appointment suggestions",
+        "appointment_type": "appointment type | appointment types",
+        "enable_matching_emr_suggestions": "Enable restriction by matching EMR appointment suggestions",
+        "enable_matching_emr_time_slots": "Enable restriction by EMR time slots with matching appointment type",
+        "book_maximum_visits": "Book a maximum of {x_visits} on {weekday}"
+      }
+    },
+    "BookingLinkSchedule": {
+      "vue": {
+        "patient_facing_name": "Patient Facing Name:",
+        "default_configuration": "Default Configuration",
+        "remove": "Remove"
+      }
+    },
+    "BookingLinkSummary": {
+      "vue": {
+        "team_based_booking_link": "Team-Based Booking Link",
+        "active_schedule": "No active schedules | 1 active schedule | {n} active schedules",
+        "inactive_schedule": "1 inactive schedule | {n} inactive schedules"
+      }
+    },
+    "CreateDayTimeRestriction": {
+      "vue": {
+        "start_time": "Start Time",
+        "end_time": "End Time",
+        "inline_checkboxes": "Inline Checkboxes",
+        "save": "Save",
+        "cancel": "Cancel",
+        "create_restriction_msg": "Create appointment restriction from {start_time} to {end_time} on {weekday}",
+        "mon": "Mon",
+        "tue": "Tue",
+        "wed": "Wed",
+        "thu": "Thu",
+        "fri": "Fri",
+        "sat": "Sat",
+        "sun": "Sun",
+        "start_before_end_error": "The restriction's start time must be before its end time.",
+        "at_least_one_day_error": "The restriction must occur on at least one day."
+      }
+    },
+    "DialogActivateSchedule": {
+      "vue": {
+        "licence_required": "Licence Required",
+        "licence_required_message": "A licence is required to activate this schedule. Navigate to the Licence Management page to add a licence for \"{scheduleName}\" prior to activation.",
+        "cancel": "Cancel",
+        "go_to_licence_management": "Go to Licence Management"
+      }
+    },
+    "DialogAddBookingLink": {
+      "vue": {
+        "select_booking_type": "Select the type of Booking Link you want to add",
+        "close_dialog": "Close Dialog",
+        "standard_booking_link": "Standard Booking Link",
+        "standard_pre_booking": "Patients first select their preferred provider and complete a Standard Pre-Booking Form",
+        "restrict_appointment_types": "Restrict available appointment types based on Standard Pre-Booking Form responses",
+        "add_configure": "Add & Configure",
+        "team_based_booking_link": "Team-Based Booking Link",
+        "team_based_pre_booking": "Patients first select the appointment type and complete a Team-Based Pre-Booking Form",
+        "first_available_across_schedules": "Display first-available appointment across multiple schedules",
+        "grouped_schedule": "Display a single grouped schedule (eg. for walk-in visits or flu-shot clinics)"
+      }
+    },
+    "DialogAppointmentTypeAttemptDelete": {
+      "vue": {
+        "delete_appointment_type": "Delete Appointment Type",
+        "appointment_type_configured": "This appointment type is configured in the following booking schedules:",
+        "remove_before_deleting": "You must remove this appointment type from all schedules before deleting it.",
+        "edit_booking_schedules": "Edit Booking Schedules",
+        "cancel": "Cancel"
+      }
+    },
+    "DialogDeactivateSchedule": {
+      "vue": {
+        "schedule_deactivated": "Schedule Deactivated",
+        "deactivation_message": "The Online Booking schedule has been successfully deactivated. To remove the licence and avoid additional charges for the EMR Schedule named \"{scheduleName}\", visit the Licence Management page.",
+        "go_to_licence_management": "Go to Licence Management",
+        "ok": "OK"
+      }
+    },
+    "DialogDeleteSchedule": {
+      "vue": {
+        "schedule_deleted": "Schedule Deleted",
+        "deletion_message": "The Online Booking schedule has been successfully deleted. To remove the licence and avoid additional charges for the EMR Schedule named \"{scheduleName}\", visit the Licence Management page.",
+        "go_to_licence_management": "Go to Licence Management",
+        "ok": "OK"
+      }
+    },
+    "DialogDuplicatePatientFacingNameInLink": {
+      "vue": {
+        "duplicate_name_detected": "Duplicate Name Detected",
+        "duplicate_name_message": "The patient friendly name \"{patientName}\" is duplicated in Booking Link \"{linkName}\".",
+        "ensure_unique_names": "Please ensure all patient facing names are unique to avoid confusing the patient.",
+        "ok": "OK"
+      }
+    },
+    "DialogEmrAppointmentMappingDisable": {
+      "vue": {
+        "disable_emr_mapping": "Disable EMR Appointment Type Mapping",
+        "disabling_mapping_message": "You are disabling EMR Appointment Type Mapping. You will lose the ability to apply restrictions to these appointment types.",
+        "confirm_disable_mapping": "Are you sure you want to disable EMR Appointment Type Mapping?",
+        "restrictions_rely_on_mapping": "You have appointment restrictions that rely on EMR mapping in the following Booking Schedules:",
+        "edit_before_disabling": "Please edit your booking schedules and remove all appointment restrictions before disabling EMR Appointment Type Mapping.",
+        "disable_mapping_button": "Disable EMR Appointment Mapping",
+        "edit_schedules_button": "Edit Booking Schedules",
+        "cancel_button": "Cancel"
+      }
+    },
+    "DialogAddGroupedSchedule": {
+      "vue": {
+        "group_name_label": "Group Name (Patient Facing)",
+        "enter_group_name_placeholder": "Enter Group Name",
+        "group_booking_form_label": "Group Booking Form",
+        "select_booking_form_placeholder": "Select Booking Form",
+        "warning": "Warning:",
+        "custom_form_warning": "When choosing a custom group booking form, please ensure the “appointment type” item is not referenced as it may cause unexpected behaviours.",
+        "group_booking_schedules_header": "Group Booking Schedules",
+        "search_schedules_placeholder": "Search schedules",
+        "minimum_schedules_error": "Select at least two Booking Schedules to group together.",
+        "maximum_schedules_error": "Cannot group more than 10 Booking Schedules together.",
+        "cancel_button": "Cancel",
+        "save_changes_button": "Save Changes",
+        "create_group_button": "Create Group"
+      }
+    },
+    "ScheduleAlternateConfiguration": {
+      "vue": {
+        "delete_button": "Delete {configTitle}",
+        "config_name_label": "Name of this configuration (not visible to patients)",
+        "patient_facing_name_label": "Patient Facing Schedule Name",
+        "appointment_suggestions_header": "Appointment Suggestions",
+        "appointment_types_header": "Appointment Types",
+        "restrictions_header": "Restrictions",
+        "booking_window_header": "Booking Window",
+        "same_day_bookings_header": "Same-Day Bookings",
+        "prevent_last_minute_bookings": "Prevent last minute bookings",
+        "prevent_future_bookings": "Prevent bookings too far in the future",
+        "day_time_restrictions_header": "Day/Time Restrictions",
+        "advanced_settings_header": "Advanced Settings",
+        "pre_booking_form_standard": "Pre-Booking Form (Standard)",
+        "pre_booking_form_team_based": "Pre-Booking Form (Team-Based)",
+        "post_booking_form": "Post-Booking Form",
+        "alternate_configuration": "Alternate Configuration"
+      }
+    },
+    "ScheduleAlternateConfigurationDefault": {
+      "vue": {
+        "inherited_text": "Inherited from Default Configuration",
+        "change_button": "Change",
+        "revert_button": "Revert to Default Schedule Settings"
+      }
+    },
+    "ScheduleAppointmentSuggestions": {
+      "vue": {
+        "allow_patients_label": "Allow patients to book into:",
+        "select_placeholder": "Select {term}s",
+        "days_without_applied": "Days without {term} applied",
+        "time_slots_with_specific_applied": "Time slots with specific {term} applied",
+        "days_without_and_slots_with": "Days without {term} applied and time slots with specific {shortTerm}s applied",
+        "default_suggestion_term": "appointment suggestions",
+        "default_suggestion_term_short": "appointment suggestion",
+        "allow_patients_to_book": "Allow patients to book in EMR time slots with the following {term} applied:",
+        "additional_types_note": "Note: Additional {shortTerm} types may also be bookable based on appointment type restrictions"
+      }
+    },
+    "ScheduleAppointmentTypes": {
+      "vue": {
+        "appointment_types_header": "Appointment Types",
+        "select_label": "Select from the list of appointment types configured in Step 1 that can be booked into this schedule.",
+        "select_placeholder": "Select an appointment type",
+        "search_placeholder": "Search Appointment Types",
+        "no_options_available": "No appointment types available.",
+        "add_option": "Add Appointment Type",
+        "no_matching_options": "No matching appointment types found.",
+        "no_items_yet": "No appointment types have been added yet.",
+        "add_item": "Add Appointment Type",
+        "no_matching_items": "No matching appointment types.",
+        "select_appointment_type": "Select an Appointment type"
+      }
+    },
+    "ScheduleBookingForm": {
+      "vue": {
+        "no_form_selected": "No form selected",
+        "change_button": "Change",
+        "preview_button": "Preview",
+        "edit_button": "Edit",
+        "remove_button": "Remove"
+      }
+    },
+    "ScheduleFutureBookingRestriction": {
+      "vue": {
+        "number_of_days_label": "Number of Days",
+        "days_units": "days",
+        "number_of_hours_label": "Number of Hours",
+        "hours_units": "hours",
+        "prevent_bookings_min": "Prevent bookings less than {x_days} and {x_hours} from the time of booking.",
+        "prevent_bookings_max": "Prevent bookings more than {x_days} and {x_hours} from the time of booking."
+      }
+    },
+    "ScheduleProviderRestriction": {
+      "vue": {
+        "selected_providers_label": "Selected Providers",
+        "select_provider_placeholder": "Select a provider",
+        "search_providers_placeholder": "Search providers",
+        "no_options_available": "No providers available.",
+        "add_option": "Add Provider",
+        "no_matching_options": "No matching providers found.",
+        "provider_type_placeholder": "Provider Type",
+        "duplicate_entry_error": "This entry is a duplicate. Please change the provider type or remove it.",
+        "anti_provider_error": "Entry cannot have both a provider and anti-provider type. Please change the provider type or remove it.",
+        "remove_button_label": "Remove",
+        "no_providers_selected": "No providers selected",
+        "primary_provider": "Primary Provider",
+        "family_doctor": "Family Doctor",
+        "care_team_member": "any Care Team Member",
+        "selected_providers_option": "Patients with Selected Providers",
+        "all_patients_option": "All Patients",
+        "patient_md_np": "Patient MD/NP",
+        "family_md_np": "Family MD/NP",
+        "not_primary_provider": "Not Primary Provider",
+        "provider_type_label": "{providerName} as "
+      }
+    },
+    "OnlineBookingSchedulesEdit": {
+      "vue": {
+        "same_day_bookings": "Only allow same-day bookings?",
+        "day_start": "Day start",
+        "label_emr_schedule": "EMR Schedule",
+        "no_options_available": "No schedules available.",
+        "add_option": "Add Schedule",
+        "no_matching_options": "No matching schedules found.",
+        "placeholder_select_schedule": "Select a schedule",
+        "search_placeholder_schedules": "Search schedules",
+        "header_schedule_settings": "Schedule Settings",
+        "label_change_emr_schedule": "Change EMR Schedule",
+        "settings_apply_across_configs": "These settings apply across configurations",
+        "label_emr_schedule_name": "EMR Schedule Name",
+        "label_emr_time_slot_interval": "EMR Time Slot Interval",
+        "header_default_configuration": "Default Configuration",
+        "label_add_alternate_configuration": "Add Alternate Configuration",
+        "primary_schedule_settings": "These are your primary schedule settings",
+        "label_patient_facing_schedule_name": "Patient Facing Schedule Name",
+        "header_restrictions": "Restrictions",
+        "allowed_to_book": "Who is allowed to book into this schedule?",
+        "header_booking_window": "Booking Window",
+        "prevent_last_minute_bookings": "Prevent last minute bookings",
+        "prevent_far_future_bookings": "Prevent bookings too far in the future",
+        "header_day_time_restrictions": "Day/Time Restrictions",
+        "label_edit_advanced_settings": "Edit Advanced Settings",
+        "header_advanced_settings": "Advanced Settings",
+        "change_edit_booking_forms": "You can change or edit the default Booking Forms below to customize the questions displayed to your patients when booking.",
+        "label_pre_booking_form_standard": "Pre-Booking Form (Standard)",
+        "label_pre_booking_form_team_based": "Pre-Booking Form (Team-Based)",
+        "label_post_booking_form": "Post-Booking Form",
+        "desc_post_booking_form": "Please note that the post-booking form will only be collected if a patient clicks the “Finish” button after completing all pages of the post-booking form.",
+        "correct_errors_for": "Please correct the following errors for {name}:",
+        "label_save": "Save",
+        "label_cancel": "Cancel",
+        "label_delete_schedule": "Delete Schedule",
+        "choose_schedule_info": "Choose the schedule that will be receiving appointments booked online. Each individual schedule will be configured separately. Only {link} licensed EMR Schedules {link} can be selected.",
+        "error_alternate_must_have_name": "Alternate schedule configurations must have a name",
+        "error_alternate_must_have_patient_facing_name": "Alternate schedule configurations must have a patient facing name",
+        "error_select_appointment_suggestion": "You must select at least one appointment suggestion to override the default configuration",
+        "error_select_appointment_type": "You must select at least one appointment type to override the default configuration",
+        "error_booking_window_range": "Booking window must be a valid range",
+        "error_specify_day_time_restriction": "You must specify at least one day/time restriction to override the default configuration",
+        "error_save_appointment_day_time": "Please save any changes to your appointment day/time restrictions.",
+        "alternate_configuration": "Alternate Configuration",
+        "error_select_term": "Please select the {term} of the time slots that are available for booking.",
+        "error_select_template_slots": "Please select the template slots that are available for booking.",
+        "error_select_appointment_suggestion_slot": "Please select at least one appointment suggestion slot.",
+        "error_select_time_slot_interval": "Please select an EMR time slot interval.",
+        "error_valid_booking_window": "The booking window must be a valid range.",
+        "error_save_day_time_restrictions": "Please save any changes to your appointment day/time restrictions.",
+        "error_duplicate_patient_name": "Duplicate patient-facing name detected for '{name}' in link '{link}'.",
+        "error_add_patient_friendly_name": "Please add a patient-friendly schedule name.",
+        "error_name_already_in_use": "This name is already in use. Please enter another name.",
+        "error_alternate_configuration_in_links": "This alternate schedule configuration is available through the following booking link: | This alternate schedule configuration is available through the following booking links:",
+        "fix_error_alternate_configuration_in_links": "You must remove this alternate configuration from all links before deleting it.",
+        "error_schedule_in_links": "This schedule is available through the following booking link: | This schedule is available through the following booking links:",
+        "fix_error_schedule_in_links": "You must remove this schedule from all links before deleting it.",
+        "confirm_delete_schedule": "Are you sure you want to permanently delete this schedule configuration?",
+        "disable_instead": " You may temporarily disable it from the Booking Schedules page.",
+        "confirm_delete": "Confirm Delete",
+        "delete_schedule": "Delete Schedule"
+      }
+    },
+    "ScheduleSummary": {
+      "vue": {
+        "emr_schedule_label": "EMR Schedule:",
+        "licence_required": "(Licence Required)",
+        "appointment_type": "No appointment types | 1 appointment type | {n} appointment types",
+        "no_booking_links": "Not associated with any booking links",
+        "alternate_configuration": "1 alternate configuration |{x} alternate configurations",
+        "live_booking_link": "Associated with {*}{x} live booking link | Associated with {*}{x} live booking links",
+        "disabled_booking_link": "Associated with {*}{x} disabled booking link | Associated with {*}{x} disabled booking links"
+      }
+    },
+    "GroupedSchedule": {
+      "vue": {
+        "edit_group": "Edit Group",
+        "remove_group": "Remove Group",
+        "minimum_configs_error": "Grouped schedules must contain a minimum of two booking schedule configurations. Please select Edit Group to modify the current configuration.",
+        "form_label": "Form:"
+      }
+    },
+    "OnlineBookingAppointmentTypes": {
+      "vue": {
+        "patient_appointment_info": "Patients will only be shown the appointment types offered by the provider they are booking an appointment with.",
+        "providers_choose_info": "Providers can choose which appointment types they want to offer in the",
+        "emr_mapping_header": "EMR Appointment Type Mapping",
+        "enabled": "Enabled",
+        "disabled": "Disabled",
+        "mapping_info": "Mapping appointment types to the appointment types defined in your EMR allows you to create appointment specific restrictions.",
+        "enable_mapping": "Enable EMR Appointment Type Mapping",
+        "disable_mapping": "Disable EMR Appointment Type Mapping",
+        "mapping_enabled_info": "When EMR Appointment Type Mapping is enabled all appointment types must be mapped to an EMR appointment type.",
+        "add_appointment_type": "Add Appointment Type",
+        "configured_appointment_types": "Configured Appointment Types",
+        "configured_appointment_types_caption": "Appointment types configured for use in online booking schedules",
+        "no_items_yet": "No appointment types have been added yet.",
+        "add_item": "Add Appointment Type",
+        "save": "Save"
+      }
+    },
+    "OnlineBookingLinkEdit": {
+      "vue": {
+        "panel_booking_links": "Booking Links",
+        "add_booking_schedule": "Add booking schedule(s) to your online booking link(s) to make them available by URL. Multiple booking schedules can be accessed by an individual link. You can also set who can book into each booking link.",
+        "label_booking_link_name": "Booking Link Name",
+        "label_linked_directory_listing": "Linked Directory Listing",
+        "desc_linked_directory_listing": "Contact information from your directory listing will populate the confirmation page and confirmation email for patients. If you choose to upload a logo, it will appear on the online booking landing page.",
+        "label_who_can_book": "Who can book into this link?",
+        "text_limit_online_booking": "Limit online booking to patients with a chart in your EMR",
+        "text_any_patient_can_book": "Any patient can book an appointment online.",
+        "text_please_refer_article": "Please refer to this article on accepting brand new patients for online booking.",
+        "text_only_existing_patients_can_book": "Only patients with an existing chart in your EMR can book online.",
+        "label_authentication_type": "Authentication Type",
+        "label_alternate_id_label": "Alternate ID Label",
+        "label_first_available_appointment": "First Available Appointment",
+        "text_show_first_timeslot": "Show patients the first time slot available",
+        "label_bookable_schedules": "Bookable Schedules",
+        "desc_bookable_schedules": "Selected booking schedules will be accessible through this online booking link. All restrictions applied to the schedule will apply to patients attempting to book through this link.",
+        "no_options_available": "No schedules available.",
+        "add_option": "Add Schedule",
+        "no_matching_options": "No matching schedules found.",
+        "search_placeholder_schedules": "Search schedules",
+        "error_message_duplicate_name": "Please ensure the patient facing names of all selected Booking Schedules and their configurations are unique. You may edit these names in the",
+        "label_add_grouped_schedule": "Add Grouped Schedule",
+        "label_introductory_message": "Introductory Message",
+        "desc_introductory_message": "Optional message that appears on your online booking link's landing page",
+        "label_action_message_no_schedules": "What action message should the patient be shown when there are no schedules available for them to book into?",
+        "desc_action_message_no_schedules": "If Default is selected, the message will be: \"Please contact the office in the usual manner to book an appointment.\" You can also select Custom to customize the message, or None to leave it blank.",
+        "label_custom_action_message": "What should the custom action message be?",
+        "label_save": "Save",
+        "label_cancel": "Cancel",
+        "label_delete_link": "Delete Link",
+        "option_default": "Default",
+        "option_custom": "Custom",
+        "option_none": "None",
+        "text_health_number": "Health Number",
+        "text_alternate_id": "Alternate ID",
+        "text_book_by_provider": "Book by Provider",
+        "text_book_by_appointment": "Book by Appointment",
+        "label_student_number": "Student Number",
+        "error_message_name": "Please enter a name for this online booking link.",
+        "error_message_directory_listing": "Please select a directory listing.",
+        "error_message_schedule_list": "Please select at least one bookable schedule.",
+        "error_message_alternate_id_label": "Alternate ID field label must be less than 50 characters.",
+        "confirm_delete_msg": "Are you sure you want to permanently delete this link configuration?",
+        "confirm_disable_msg": " You may temporarily disable it from the Booking Links page.",
+        "confirm_delete": "Confirm Delete",
+        "delete_link": "Delete Link"
+      }
+    },
+    "OnlineBookingLink": {
+      "vue": {
+        "description_booking_links": "Booking links are unique URLs used to book patient appointments online. They can be customized to display specific information, restrict bookings to existing patients, or control access to certain EMR schedules.",
+        "heading_sharing_links": "Sharing Booking Links",
+        "text_copy_button": "Use the \"copy\" button to save a booking link to share with patients online.",
+        "heading_disabling_links": "Disabling Booking Links",
+        "text_disabling_link": "Disabling a booking link will result in a notification page directing the patient to contact their clinic. You can re-enable the link at any time to resume accepting online bookings.",
+        "label_show": "Show",
+        "label_add_link": "Add Booking Link",
+        "no_items_yet": "No booking links have been added yet.",
+        "add_item": "Add Booking Link",
+        "no_matching_items": "No matching booking links.",
+        "label_disabled": "Disabled",
+        "snippet_description": " Booking Link URL",
+        "label_enable": "Enable",
+        "label_disable": "Disable",
+        "text_all_booking_links": "All Booking Links",
+        "text_live_booking_links": "Live Booking Links",
+        "text_disabled_booking_links": "Disabled Booking Links",
+        "label_hide_details": "Hide Details",
+        "label_show_details": "Show Details"
+      }
+    },
+    "OnlineBookingSchedules": {
+      "vue": {
+        "schedules_description": "Schedules from your EMR can be added and configured for online booking based on individual provider preferences.",
+        "activating_schedules_heading": "Activating Schedules",
+        "activating_schedules_description": "Patients will not be able to book into a schedule until it has been activated. You can only activate licensed schedules.",
+        "deactivating_schedules_heading": "Deactivating Schedules",
+        "deactivating_schedules_description": "Deactivating a schedule will maintain your settings while preventing patients from booking into that schedule.",
+        "show_label": "Show",
+        "add_schedule": "Add Schedule",
+        "no_items_yet": "No schedules have been added yet.",
+        "add_item": "Add Schedule",
+        "no_matching_items": "No matching schedules.",
+        "activate_button": "Activate",
+        "deactivate_button": "Deactivate",
+        "duplicate_button": "Duplicate",
+        "all_schedules": "All Schedules",
+        "active_schedules": "Active Schedules",
+        "inactive_schedules": "Inactive Schedules",
+        "schedules_with_alternate_configurations": "Schedules with Alternate Configurations",
+        "schedules_with_appointment_restrictions": "Schedules with Appointment Type Restrictions",
+        "hide_details": "Hide Details",
+        "show_details": "Show Details"
+      }
+    },
+    "OnlineBookingSettings": {
+      "vue": {
+        "page_title": "Online Booking Settings",
+        "welcome_heading": "Welcome to Online Booking!",
+        "requirements_message": "Before getting started please ensure all the requirements have been met; they are necessary prior to setting up Online Booking.",
+        "setup_guide_button": "Step by Step Setup Guide",
+        "requirements_heading": "Requirements",
+        "requirements_met": "All requirements are met!",
+        "enable_cloud_connect": "Enable Cloud Connect",
+        "add_patient_licence": "Add Patient Engagement Licence (Plus)",
+        "add_directory_listing": "Add a Directory Listing",
+        "pricing_details": "Pricing Details",
+        "appointment_types_section": "Appointment Types",
+        "no_items_yet": "No appointment types have been added yet.",
+        "add_item": "Add Appointment Type",
+        "no_matching_items": "No matching appointment types.",
+        "add_appointment_types_button": "Add Appointment Types",
+        "minutes_unit": "min",
+        "booking_schedules_section": "Booking Schedules",
+        "active_header": "Active",
+        "alternate_configuration": "1 alternate configuration |{n} alternate configurations",
+        "inactive_header": "Inactive",
+        "inactive_schedules_description": "Patients can't book into inactive schedules",
+        "no_schedules_yet": "No schedules have been added yet.",
+        "add_schedule": "Add Schedule",
+        "booking_links_section": "Booking Links",
+        "live_header": "Live",
+        "booking_link_url": "Booking Link URL",
+        "disabled_header": "Disabled",
+        "disabled_links_description": "Patients can't access disabled links",
+        "no_links_yet": "No booking links have been added yet.",
+        "add_link": "Add Booking Link"
+      }
+    },
+    "ReferralsSettings": {
+      "vue": {
+        "page_title": "Referrals Settings",
+        "welcome_heading": "Welcome to Ocean eReferrals!",
+        "referral_usage_label": "How is your site using Referrals?",
+        "sending_referrals_option": "Sending Referrals",
+        "receiving_referrals_option": "Receiving Referrals",
+        "both_referrals_option": "Sending & Receiving Referrals",
+        "configure_referrals_button": "Configure Referrals",
+        "requirements_heading": "Requirements",
+        "requirements_met_message": "All requirements are met!",
+        "requirements_incomplete_message": "Before you can start using referrals, please indicate how you are planning to use referrals and then complete the following steps:",
+        "additional_utilities": "Additional Utilities",
+        "update_organization_button": "Update Organization",
+        "run_reports_button": "Run Reports",
+        "setup_integrations_button": "Setup Integrations",
+        "directory_listings_section": "Directory Listings",
+        "canned_responses_section": "Canned Responses",
+        "website_form_links_section": "Website Form Links"
+      }
+    },
+    "ReferralsSettingsEdit": {
+      "vue": {
+        "receiving_referrals_section": "Receiving Referrals",
+        "trustee_custodian_yes": "Yes, this site is a Trustee/Custodian",
+        "trustee_custodian_no": "No, this site is not a Trustee/Custodian",
+        "trustees_custodians_label": "Trustees/Custodians",
+        "trustee_custodian_error": "Please indicate whether this site is a Trustee/Custodian.",
+        "trustee_custodian_description": "A Trustee/Custodian is authorized to collect, use, and disclose Personal Health Information. To learn more, read {link_start}our article about Trustees/Custodians{link_end}.",
+        "default_referral_notification_email_label": "Default Incoming Referral Notification Emails",
+        "default_referral_notification_email_description": "Multiple emails can be added separated by commas or semicolons. Directory Listing specific emails will be used instead when available.",
+        "valid_email_error": "Please enter a valid email address.",
+        "send_patient_notifications_label": "Send Patients Email Notifications",
+        "learn_more_description": "To learn more, read {link_start}our article about Patient eReferral Notifications{link_end}",
+        "use_patient_email_label": "Use Ocean patient's email address for integrations",
+        "use_patient_email_description": "For listings with an integration, Ocean should use the email address submitted with the request (recommended)",
+        "create_charts_label": "Create Charts for New Patients",
+        "create_charts_description": "Allow Ocean to create patients in your EMR when a Referral is accepted",
+        "referral_filetype_label": "Referral Records/Notes Filetype",
+        "auto_close_referrals_label": "Automatically Close Referrals",
+        "number_of_days_label": "Number of Days",
+        "days_unit": "day(s)",
+        "econsult_management_section": "eConsult Management",
+        "display_econsult_folders_label": "Display eConsult Folders",
+        "display_econsult_folders_description": "Providers must be approved by a Regional Authority before they can respond to eReferrals as an eConsult. Ocean users can apply to do so on the My Account page.",
+        "econsult_enabled_error": "All eConsults must be completed within your site before disabling this setting.",
+        "appointment_time_options_section": "Appointment Time Options",
+        "configure_appointment_times_description": "Configure the appointment times that will be available in the time dropdown in the appointment scheduling section of the referral.",
+        "hour12_option": "12-hour clock (am/pm)",
+        "hour24_option": "24-hour clock",
+        "both_hour_options": "12-hour clock and 24-hour clock",
+        "time_system_label": "Time System",
+        "five_minutes_option": "5 minutes",
+        "ten_minutes_option": "10 minutes",
+        "fifteen_minutes_option": "15 minutes",
+        "twenty_minutes_option": "20 minutes",
+        "thirty_minutes_option": "30 minutes",
+        "sixty_minutes_option": "60 minutes",
+        "time_interval_label": "Time Interval",
+        "time_range_label": "Time Range",
+        "earliest_booking_time_label": "Earliest Booking Time",
+        "latest_booking_time_default": "23:55",
+        "latest_booking_time_label": "Latest Booking Time",
+        "preview_time_options_label": "Preview Appointment Time Options",
+        "preview_time_options_description": "Open this dropdown to view the options that will be available based on your current settings",
+        "view_dropdown_values_placeholder": "View Dropdown Values",
+        "save_button": "Save",
+        "cancel_button": "Cancel",
+        "complete_referrals_automatically": "Complete referrals automatically {number_of_days} after their last appointment?",
+        "time_range": "From {time} to {time}"
+      }
+    },
+    "DialogForceSendConfirmation": {
+      "vue": {
+        "confirm_force_send_header": "Confirm Force Send",
+        "force_send_reminder_rule_after": "Force sending the reminder rule {ruleName} may result in patients receiving multiple reminders since the reminder rule was already run today at {timeOfDay}.",
+        "force_send_rule_processing_after": "Force sending rules will take time to process. You will not be able to edit {ruleName} until the force send has been processed.",
+        "force_send_all_rules_after": "Force sending all enabled reminder rules may result in patients receiving multiple reminders since the reminder rules were already run at {timeOfDay}.",
+        "force_send_all_rules_processing_after": "Force sending rules will take time to process. You will not be able to edit reminder rules until the force send has been processed.",
+        "force_send_reminder_rule_before": "Force sending the reminder rule {ruleName} will cause it to be skipped at {timeOfDay} today. All other enabled reminder rules will still run at {timeOfDay} today.",
+        "force_send_rule_processing_before": "Force sending rules will take time to process. You will not be able to edit {ruleName} until the force send has been processed.",
+        "force_send_all_rules_before": "Force sending all enabled reminder rules will cause them to be skipped at {timeOfDay} today.",
+        "force_send_all_rules_processing_before": "Force sending rules will take time to process. You will not be able to edit reminder rules until the force send has been processed.",
+        "force_send_button": "Force Send",
+        "cancel_button": "Cancel"
+      }
+    },
+    "DialogReminderJsViolations": {
+      "vue": {
+        "reminder_save_failed_header": "Reminder Rule Save Failed",
+        "correct_errors_message": "Please correct the following error(s) and try again.",
+        "rule_label": "Rule:",
+        "errors_label": "Errors:",
+        "ok_button_label": "OK"
+      }
+    },
+    "DialogRemindersAppointmentSourceChange": {
+      "vue": {
+        "change_appointment_source_header": "Change Appointment Source",
+        "changing_source_to_referral": "You are changing your appointment source to {span_start}eReferrals{span_end}.",
+        "ereferrals_reminder_rules_message": "Your existing Reminder Rules won’t be visible for eReferral Reminders, but they will be saved in case you return to the EMR Schedule appointment source.",
+        "changing_source_to_schedule": "You are changing your appointment source to {span_start}EMR Schedule{span_end}.",
+        "emr_reminder_rules_message": "You have previously created reminder rules based off your EMR schedule.",
+        "disable_reminders_message": "You may want to temporarily disable Patient Reminders while you review your preexisting rules.",
+        "set_source_to_ereferrals_button": "Set Appointment Source to eReferrals",
+        "set_source_to_emr_button": "Set Appointment Source to EMR Schedule",
+        "cancel_button": "Cancel"
+      }
+    },
+    "ReminderConditionBuilder": {
+      "vue": {
+        "appointment_type_button": "Appointment Type",
+        "reason_button": "Reason",
+        "emr_schedule_button": "EMR Schedule",
+        "javascript_expression_button": "JavaScript Expression",
+        "send_if_appointment_type": "Send if appointment type",
+        "licensed_emr_schedules_section": "Licensed EMR Schedules",
+        "unlicensed_emr_schedules_section": "Unlicensed EMR Schedules",
+        "javascript_expression_label": "JavaScript Expression",
+        "javascript_expression_placeholder": "JavaScript Expression",
+        "remove_javascript_expression_button": "Remove JavaScript Expression",
+        "no_items_yet": "No conditions have been added yet.",
+        "add_item": "Add condition",
+        "blank_no_type_option": "Blank/No Type",
+        "blank_no_reason_option": "Blank/No Reason",
+        "and_reason_label": "and reason",
+        "send_if_reason_label": "Send if reason",
+        "and_emr_schedule_label": "and EMR Schedule",
+        "send_if_emr_schedule_label": "Send if EMR Schedule",
+        "and_javascript_expression_label": "and (JavaScript Expression)",
+        "send_if_javascript_expression_label": "Send if (JavaScript Expression)",
+        "unlicensed_label": "Unlicensed"
+      }
+    },
+    "ReminderRuleConditionEdit": {
+      "vue": {
+        "condition_types_label": "Condition Types",
+        "condition_is_option": "is",
+        "condition_is_not_option": "is not",
+        "condition_is_one_of_option": "is one of",
+        "condition_is_not_one_of_option": "is not one of",
+        "condition_contains_option": "contains",
+        "condition_does_not_contain_option": "does not contain",
+        "appointment_type": "Appointment Type",
+        "reason": "Reason",
+        "emr_schedule": "EMR Schedule",
+        "appointment_type_plural": "Appointment Types",
+        "reason_plural": "Reasons",
+        "emr_schedule_plural": "EMR Schedules",
+        "deleted_appointment_type": "Deleted Appointment Type",
+        "deleted_reason": "Deleted Reason",
+        "removed_emr_schedule": "Removed EMR Schedule",
+        "select_appointment_type": "Select Appointment Type",
+        "select_reason": "Select Reason",
+        "select_emr_schedule": "Select EMR Schedule",
+        "filter_appointment_types": "Filter Appointment Types",
+        "filter_reasons": "Filter Reasons",
+        "filter_emr_schedules": "Filter EMR Schedules",
+        "remove_condition_appointment_type": "Remove Appointment Type Condition",
+        "remove_condition_reason": "Remove Reason Condition",
+        "remove_condition_emr_schedule": "Remove EMR Schedule Condition"
+      }
+    },
+    "ReminderRuleSummary": {
+      "vue": {
+        "confirm_appointments": "Patients can confirm appointments from reminders.",
+        "javascript_expression": "JavaScript Expression:",
+        "send_reminder_before": "Send {style_start} email {option1}and text message{option1} {style_end} reminder 1 day before the appointment{option2} using the {reminderTemplateName} template{option2}. |Send {style_start} email {option1}and text message{option1} {style_end} reminder {days} days before the appointment{option2} using the {reminderTemplateName} template{option2}.",
+        "send_reminder_after": "Send {style_start} email {option1}and text message{option1} {style_end} reminder 1 day after the appointment{option2} using the {reminderTemplateName} template{option2}. |Send {style_start} email {option1}and text message{option1} {style_end} reminder {days} days after the appointment{option2} using the {reminderTemplateName} template{option2}."
+      }
+    },
+    "ReminderRuleSummaryCondition": {
+      "vue": {
+        "appointment_type": "Appointment Type",
+        "reason": "Reason",
+        "emr_schedule": "EMR Schedule",
+        "deleted_appointment_type": "Deleted Appointment Type",
+        "deleted_reason": "Deleted Reason",
+        "removed_emr_schedule": "Removed EMR Schedule"
+      }
+    },
+    "ReminderSendStatusError": {
+      "vue": {
+        "invalid_mobile_number": "Invalid mobile number",
+        "opted_out_sms": "Opted out of text message reminders",
+        "sms_character_length_exceeded": "Text message exceeded maximum character length",
+        "invalid_sms_characters": "Text message contained invalid characters",
+        "twilio_error": "Service provider error occurred"
+      }
+    },
+    "RemindersActivitySummaryTime": {
+      "vue": {
+        "force_sent": "Force Sent",
+        "template_label": "Template:",
+        "text_messages_sent": "1 text message sent | {smsCount} text messages sent",
+        "emails_sent": "1 email sent | {emailCount} emails sent",
+        "patient_reminders_sent": "1 patient reminder sent | {patientCount} patient reminders sent",
+        "view_details": "View Details"
+      }
+    },
+    "RemindersHistoryDetailsEntry": {
+      "vue": {
+        "appointment_details": "Appointment Details",
+        "provider": "(Provider)",
+        "patient_details": "Patient Details",
+        "emr_id": "EMR ID:",
+        "reminder_details": "Reminder Details",
+        "email_sent_reactive": "Email sent {date}",
+        "email_sent": "Sent {date}",
+        "email_error": "Error sending email reminder.",
+        "pending_carrier_delivery": "{date} (pending carrier delivery confirmation)",
+        "sms_delivered_reactive": "SMS delivered {date}",
+        "sms_sent_reactive": "SMS sent {date}",
+        "sms_delivered": "Delivered {date}",
+        "sms_sent": "Sent {date}",
+        "sms_error": "Error sending SMS reminder.",
+        "not_available": "(Not Available)",
+        "encrypted_patient": "(Encrypted Patient)"
+      }
+    },
+    "RemindersHistoryDetailsTable": {
+      "vue": {
+        "matching_appointments_table_name": "Matching appointments for reminder run",
+        "caption": "Matching log entries containing appointment and patient details for reminder rule run",
+        "loading_logs": "Loading reminder logs for run from {dateTime}",
+        "matching_appointments": "Matching Appointments",
+        "text_message_reminder": "Text Message Reminder",
+        "time": "Time",
+        "provider": "Provider",
+        "emr_id": "EMR ID",
+        "patient_name": "Patient Name",
+        "patient_contact": "Patient Contact",
+        "email_reminder": "Email Reminder"
+      }
+    },
+    "RemindersRuleFilterCard": {
+      "vue": {
+        "filter": "Filter",
+        "clear_filter": "Clear Filter",
+        "selected": "Selected"
+      }
+    },
+    "RemindersRuleMatchingAppointment": {
+      "vue": {
+        "appointment_details": "Appointment Details",
+        "provider": "(Provider)",
+        "appointment_type": "(Appointment Type)",
+        "appointment_reason": "(Appointment Reason)",
+        "patient_details": "Patient Details",
+        "emr_id": "EMR ID: {id}",
+        "unable_to_decrypt": "Unable to decrypt patient data",
+        "reminder_details": "Reminder Details",
+        "invalid_mobile_number": "Invalid Mobile Number",
+        "opted_out_text": "Opted Out of Text Messages",
+        "missing_mobile_number": "Missing Mobile Number",
+        "invalid_email_address": "Invalid Email Address",
+        "missing_email_address": "Missing Email Address",
+        "email_text_reminders": "Email and text message reminders would be sent",
+        "email_reminder": "Email reminder would be sent",
+        "text_reminder": "Text message reminder would be sent",
+        "no_reminder": "No reminder would be sent"
+      }
+    },
+    "RemindersRuleMatchingAppointmentsTable": {
+      "vue": {
+        "matching_appointments": "Matching Appointments",
+        "caption": "Appointment and patient details that match reminder rule conditions",
+        "running_reminder_rule": "Running your reminder rule against appointments on {date}",
+        "stay_on_page": "Please stay on this page until the test run is complete.",
+        "complex_rules_warning": "It may take longer for complex rules to run against a large number of appointments.",
+        "time": "Time",
+        "appointment_details": "Appointment Details",
+        "emr_id": "EMR ID",
+        "patient_details": "Patient Details",
+        "reminder_details": "Reminder Details"
+      }
+    },
+    "RemindersStatusActive": {
+      "vue": {
+        "patient_reminders_msg": "{style_start}Patient Reminders{style_end} are scheduled to be sent daily at {style_start}{hour}{style_end}.",
+        "reminder_rules_msg": "Reminder rules will only run against the {n} {link}licensed EMR Schedule{link}. |Reminder rules will only run against the {n} {link}licensed EMR Schedules{link}."
+      }
+    },
+    "RemindersStatusInactive": {
+      "vue": {
+        "reminder_rules": "There are {style_start}no live{style_end} reminder rules. No new reminders will be sent."
+      }
+    },
+    "RemindersStatusNew": {
+      "vue": {
+        "no_reminders": "Patient Reminders haven't been configured yet. No reminders will be sent."
+      }
+    },
+    "RemindersStatusSetup": {
+      "vue": {
+        "no_reminders": "Patient Reminders setup is incomplete. No reminders will be sent."
+      }
+    },
+    "RemindersHistoryDetails": {
+      "vue": {
+        "reminder_rule_ran_on": "Reminder rule ran on {day} at {time}",
+        "force_sent": "(Force Sent)",
+        "filter_by_provider": "Filter By Provider",
+        "clear_all_filters": "Clear All Filters",
+        "show_all": "Show All",
+        "showing": "Showing {n} of {total_count} matching appointment scheduled on {day} | Showing {n} of {total_count} matching appointments scheduled on {day}",
+        "rule_history": "{ruleName} History"
+      }
+    },
+    "RemindersMain": {
+      "vue": {
+        "sent_reminders_history": "Sent Reminders History",
+        "times_reflect": "Times reflect when the reminder rule was scheduled to run or manually triggered by a force send.",
+        "download_log": "Download Log",
+        "no_activity": "You have no reminders activity from the past 7 days."
+      }
+    },
+    "RemindersSettings": {
+      "vue": {
+        "patient_reminders_settings": "Patient Reminders Settings",
+        "configure": "Configure",
+        "get_started": "Get Started with Patient Reminders",
+        "read_setup_guide": "Read our Setup Guide to learn how to add, customize and manage Ocean's automated Patient Reminders.",
+        "view_setup_guide": "View Setup Guide",
+        "activation_requirements": "Activation Requirements",
+        "complete_steps": "Before you can use patient reminders, please complete the following steps:",
+        "enable_cloud_connect": "Enable Cloud Connect",
+        "add_patient_engagement_license": "Add Patient Engagement Licence",
+        "create_patient_template": "Create a Patient Messages Template",
+        "all_requirements_met": "All requirements are met!",
+        "pricing_details": "Pricing Details",
+        "unlimited_subscription": "This site has an Ocean Unlimited subscription.",
+        "site_has_licensed_emr": "This site has {n} licensed EMR Schedule. | This site has {n} licensed EMR Schedules.",
+        "ereferral_subscription": "Patient Reminders configured to use eReferrals as the Appointment Source are included in your eReferral subscription.",
+        "reminder_rules": "Reminder Rules",
+        "add_reminder_rule": "Add Reminder Rule",
+        "force_send_all": "Force Send All Live Reminders",
+        "processing": " (Processing...)",
+        "no_items_yet": "No reminder rules have been added yet.",
+        "add_item": "Add Reminder Rule",
+        "no_matching_items": "No matching reminder rules.",
+        "disabled": "Disabled",
+        "force_send": "Force Send",
+        "disable": "Disable",
+        "enable": "Enable",
+        "add_remove_licenses": "To add or remove licences, please visit the {link}Licence Management page{link}.",
+        "must_configure_reminders": "You must {link}configure reminders{link} before creating reminder rules."
+      }
+    },
+    "ReminderSettingsEdit": {
+      "vue": {
+        "appointment_source": "Appointment Source",
+        "select_appointment_source": "Select the source of appointments used for reminders",
+        "appointment_status_sent": "Appointment Status for Sent Ocean Reminders",
+        "optional_change_status": "Ocean can optionally change the appointment status in your EMR when a reminder is sent.",
+        "select_a_status": "Select a Status",
+        "appointment_status_confirmations": "Appointment Status for Appointment Confirmations",
+        "change_status_on_confirm": "Ocean will change the appointment status in your EMR when a patient confirms their appointment through an Ocean reminder.",
+        "error_select_status": "Please select a status",
+        "daily_run_time": "Daily Run Time",
+        "run_time_description": "Ocean will start processing reminders at the selected time. An overnight or early morning start time is suggested.",
+        "text_message_reminders": "Text Message Reminders",
+        "text_message_consent": "Clinics should follow standard industry consent protocols for sending text messages to their patients. Please review your text message procedures with your clinic’s privacy officer before proceeding to send text messages. An additional fee of $0.11 per text message will apply.",
+        "learn_more_text_messages": "Learn more about text message reminders.",
+        "save": "Save",
+        "cancel": "Cancel",
+        "emr_schedule": "EMR Schedule",
+        "ereferrals": "eReferrals",
+        "dont_change_status": "Don't Change Appointment Status",
+        "sms_consent_option_label": "I acknowledge the additional fee for text messages and the need to follow standard consent protocols",
+        "sms_consent_msg": "(completed by {person} on {date})"
+      }
+    },
+    "RemindersSettingsRuleEdit": {
+      "vue": {
+        "rule_name": "Rule Name",
+        "rule_name_description": "The rule name won't be visible to patients",
+        "name_placeholder": "Name",
+        "error_name_rule": "Please name the rule",
+        "reminder_options": "Reminder Options",
+        "note_text_message": "Note: Text Message Reminders can only be sent before appointments.",
+        "when_to_send": "When should the reminder be sent?",
+        "number_of_days": "Number of Days",
+        "before": "before",
+        "after": "after",
+        "before_after_appointment": "Before or After Appointment",
+        "how_to_send": "How should the reminder be sent?",
+        "additional_fees": "Additional fees may apply for text message reminders",
+        "include_ical": "Include iCal calendar event file in email reminder",
+        "sms_consent_text": "Clinics should follow standard industry consent protocols for sending text messages to their patients. Please review your text message procedures with your clinic’s privacy officer before proceeding to send text messages. An additional fee of $0.10 per text message will apply.",
+        "learn_more_sms": "Learn more about text message reminders.",
+        "sms_consent_acknowledge": "I acknowledge the additional fee for text messages and the need to follow standard consent protocols",
+        "appointment_confirmation": "Appointment Confirmation",
+        "confirmation_description": "Allow patients to confirm their upcoming appointments from reminders",
+        "appointment_cancellations": "Appointment Cancellations",
+        "cancellation_description": "Allow patients to cancel their upcoming appointments from reminders",
+        "cancellation_window": "Cancellation Window",
+        "messaging_template": "Messaging Template",
+        "template_description": "Includes email, secure message and eForm settings that will be used for this reminder",
+        "add_template": "Add Template",
+        "search_templates": "Search Templates",
+        "rule_conditions": "Rule Conditions",
+        "who_should_receive": "Who should receive this reminder?",
+        "sms_preview": "Text Message Preview",
+        "template_preview": "Messaging Template Preview",
+        "save": "Save",
+        "save_and_test": "Save & Test Rule",
+        "save_and_enable": "Save & Enable Rule",
+        "cancel": "Cancel",
+        "save_and_disable": "Save & Disable Rule",
+        "delete_rule": "Delete Rule",
+        "error_template_does_not_exist": "This template no longer exists. Please select a different template.",
+        "error_select_template": "Please select a template",
+        "send_constraint": "Send {n} day(s) {before_or_after} the appointment.",
+        "cancellation_window_msg": "Allow {n} hour(s) {|2} before the appointment.",
+        "send": "Note: All Rule Conditions only apply to patients with appointments in the {link}licensed EMR Schedules{link}."
+      }
+    },
+    "RemindersSettingsRuleTest": {
+      "vue": {
+        "reminder_rule_summary": "Reminder Rule Summary",
+        "js_expression": "JavaScript Expression: {rule}",
+        "matching_appointments": "Matching Appointments",
+        "patients_receive_reminders": "Patients with appointments on {date} would receive their reminders today.",
+        "couldnt_test_reminder_rule": "Unfortunately we couldn't test this reminder rule at this time.",
+        "emr_instabilities": "This is usually due to instabilities with your EMR so you can try running the test again.",
+        "retry_test": "Retry Test",
+        "filter_by_emr_schedule": "Filter By EMR Schedule",
+        "clear_all_filters": "Clear All Filters",
+        "show_all": "Show All",
+        "showing_filtered_appointments": "Showing {filteredCount} of {totalCount} matching appointment | Showing {filteredCount} of {totalCount} matching appointments",
+        "text_message_preview": "Text Message Preview",
+        "messaging_template_preview": "Messaging Template Preview",
+        "enable_rule": "Enable Rule",
+        "return_to_rule_settings": "Return to Rule Settings",
+        "rerun_test": "Rerun Test",
+        "test_rule": "Test {ruleName}",
+        "test": "Test",
+        "reminders_scheduled_before": "Reminders will be sent {style_start}1 day{style_end} before appointments {option1} that match all the conditions: {option1} |Reminders will be sent {style_start}{days} days{style_end} before appointments {option1} that match all the conditions: {option1}",
+        "reminders_scheduled_after": "Reminders will be sent {style_start}1 day{style_end} after appointments {option1} that match all the conditions: {option1} |Reminders will be sent {style_start}{days} days{style_end} after appointments {option1} that match all the conditions: {option1}"
+      }
+    },
+    "AddLicenceMessagesLicenceSelect": {
+      "vue": {
+        "search_by_name": "Search by Name",
+        "already_assigned": "{user} (already assigned)"
+      }
+    },
+    "AddLicenceProgressStepper": {
+      "vue": {
+        "assign_online_booking": "Assign Online Booking",
+        "assign_patient_reminders": "Assign Patient Reminders",
+        "assign_patient_messages": "Assign Patient Messages"
+      }
+    },
+    "DialogActiveProviderSchedules": {
+      "vue": {
+        "active_booking_schedules": "Active booking schedules",
+        "cancel": "Cancel",
+        "go_to_booking_schedules": "Go to Booking Schedules",
+        "single_schedule_message": "This EMR Schedule is associated with an active Booking Schedule used in Online Booking Links. The Booking Schedule needs to be deactivated prior to removing the licence.",
+        "multiple_schedules_message": "This EMR Schedule is associated with {n} active Booking Schedules used in Online Booking Links. The Booking Schedules need to be deactivated prior to removing the licence."
+      }
+    },
+    "DialogAddLicence": {
+      "vue": {
+        "licence_created_error": "The licence may have been created already by another site administrator. Please refresh the licence management page to see the updated list.",
+        "assign_emr_schedule_price": "Assign an EMR Schedule to activate for Online Booking for $28.00/month.",
+        "assign_emr_schedule": "Assign an EMR Schedule to activate for Online Booking.",
+        "note_emr_schedule": "Note: If an EMR Schedule is not available for selection below it may not be configured to sync appointments from your EMR using",
+        "ocean_cloud_connect": "Ocean Cloud Connect",
+        "no_emr_schedules": "No EMR schedules could be found.",
+        "activate_provider_patient_messages": "Activate a provider for Patient Messages instead.",
+        "search_by_name": "Search by Name",
+        "assign_emr_schedule_patient_reminders": "Assign an EMR Schedule to activate for Patient Reminders.",
+        "assign_provider_price": "Assign a provider to activate for Patient Messages for $30.50/month.",
+        "assign_provider": "Assign a provider to activate for Patient Messages.",
+        "note_user_selection": "Note: If a user is not available for selection below they may be considered Clinic Support Staff who can send Patient Messages without requiring an assigned licence.",
+        "cancel": "Cancel",
+        "finish_assign_provider_later": "Finish & Assign Provider Later",
+        "previous": "Previous",
+        "next": "Next",
+        "finish": "Finish",
+        "already_assigned": "{schedule} (already assigned)"
+      }
+    },
+    "DialogAddPaymentMethod": {
+      "vue": {
+        "add_payer": "Add Payer",
+        "valid_payment_method_required": "The payer on this site must have a valid payment method to add a licence.",
+        "view_payer": "To view the payer for this site, go to the Admin > Billing page.",
+        "add_payment_method": "To add a payment method on the payer’s user account, go to User Settings > Billing.",
+        "close": "Close"
+      }
+    },
+    "DialogDeleteDirectoryListing": {
+      "vue": {
+        "delete_directory_listing": "Delete directory listing?",
+        "delete_message": "{listingName} will be permanently deleted. Any Website Form Links associated with this listing will be deactivated.",
+        "cancel": "Cancel",
+        "delete_listing": "Delete listing"
+      }
+    },
+    "DialogUnclaimDirectoryListing": {
+      "vue": {
+        "successful_delete_header": "Directory listing successfully deleted",
+        "unclaim_directory_listing": "Unclaim directory listing?",
+        "unclaim_message": "{listingName} will be removed from your site. It will remain in the directory as an unclaimed listing. Any Website Form Links associated with this listing will be deactivated.",
+        "cancel": "Cancel",
+        "unclaim_listing": "Unclaim listing",
+        "successful_unclaim_header": "Directory listing successfully unclaimed"
+      }
+    },
+    "DialogUnclaimDirectoryListingSuccessful": {
+      "vue": {
+        "successful_delete_message": "This directory listing has been deleted.",
+        "ok": "Ok",
+        "successful_unclaim_message": "This directory listing has been unclaimed."
+      }
+    },
+    "DialogDiscardChanges": {
+      "vue": {
+        "unsaved_changes": "Unsaved changes",
+        "discard_changes_message": "Are you sure you want to discard your changes?",
+        "yes_discard_changes": "Yes - Discard Changes",
+        "cancel": "Cancel"
+      }
+    },
+    "DialogEditCatchmentArea": {
+      "vue": {
+        "specify_catchment_area": "Specify Catchment Area",
+        "import_json": "Import JSON",
+        "add_new_area": "Add New Area",
+        "remove_area": "Remove Area",
+        "cancel": "Cancel",
+        "done": "Done",
+        "json_processing_error": "JSON Processing Error",
+        "ok": "OK"
+      }
+    },
+    "DialogInvalidHsoConfiguration": {
+      "vue": {
+        "unable_to_save_directory_listing": "Unable To Save Directory Listing",
+        "invalid_hso_config_message": "In order to activate this listing to ‘Accept eRequests’, one or more health service offerings must be set to accept eRequests. Enable a health service offering for this eRequest and try again.",
+        "ok": "Ok"
+      }
+    },
+    "DialogListingPendingRaReview": {
+      "vue": {
+        "unable_to_save_directory_listing": "Unable To Save Directory Listing",
+        "listing_pending_ra_review__message": "This Directory Listing is pending review by a Regional Authority. You must have approval before activating the listing to accept eRequests. Uncheck ‘Accepting eRequests’ and try again.",
+        "ok": "Ok"
+      }
+    },
+    "RegionalAuthorityApply": {
+      "vue": {
+        "enter_number_of_clinicians": "Enter the number of clinicians authorized to receive eRequests at this directory listing.",
+        "authorized_clinicians_note": "Authorized clinicians don’t need to have an Ocean user account.",
+        "include_clinicians_note": "Only include clinicians who receive eRequests at this directory listing and nowhere else.",
+        "exclude_admin_staff": "Don’t include administrative staff.",
+        "comment_rationale": "If the total number of clinicians is 0, you must include a comment explaining the rationale. See this {link_start}support article{link_end} for further details on determining the appropriate number of clinicians for your listing.",
+        "number_of_clinicians": "Number of clinicians",
+        "comment": "Comment",
+        "additional_details": "Additional Details",
+        "number_review_note": "Note: This number must be reviewed and updated annually to assist Regional Authorities in capturing an accurate number of eRequest targets available in their region via the Ocean Healthmap.",
+        "application_send_disclaimer": "An application to include your site will be sent to the chosen Regional Authority.",
+        "regional_authority": "Regional Authority",
+        "licence_agreement_iframe_title": "Licence Agreement",
+        "version": "Version {version}",
+        "user_email_note": "Your Ocean user email address \"{userEmail}\" will be provided to the regional authority \"{regionalAuthorityName}\" so that the regional authority can contact you regarding your application.",
+        "ra_application_sent": "Your application has been sent to {regionalAuthorityName} for review. You will be notified by email when the review is complete.",
+        "cancel": "Cancel",
+        "agree": "I agree",
+        "apply_to_regional_authority": "Apply to Regional Authority",
+        "choose_regional_authority": "Choose Your Regional Authority",
+        "licence_agreement_header": "{regionalAuthority} - Licence Agreement",
+        "application_sent": "Application Sent",
+        "choose_regional_authority_label": "Choose Regional Authority",
+        "review_licence_agreement_label": "Review Licence Agreement",
+        "send_application_label": "Send application",
+        "finish_label": "Finish"
+      }
+    },
+    "DialogRepositoryChange": {
+      "vue": {
+        "please_confirm": "Please Confirm",
+        "confirm_contribute_to_repo": "Are you sure you want to allow sites to contribute data to the {repository}?",
+        "confirm_change_repo": "Are you sure you want to change {initialRepository} to {repository}?",
+        "yes": "Yes",
+        "cancel": "Cancel"
+      }
+    },
+    "DialogRemoveLicenceBundle": {
+      "vue": {
+        "select_provider": "Please select a provider to remove from Patient Messages",
+        "remove_to_eliminate": "Patient Messages and Reminders are part of the same licence and one of each must be removed to eliminate the licence from your bill.",
+        "search_by_name": "Search by Name",
+        "cancel": "Cancel",
+        "remove_licence": "Remove Licence"
+      }
+    },
+    "DialogRepositoryContributionConfirmation": {
+      "vue": {
+        "shared_please_confirm": "Please Confirm",
+        "cancel": "Cancel",
+        "confirmation_message_enable": "Are you sure you want to contribute data to the repository? This will include Personal Health Information.",
+        "confirmation_message_disable": "Are you sure you want to stop contributing data to the repository?",
+        "yes_enable_repository_contribution": "Yes - Enable Repository Contribution",
+        "yes_stop_repository_contribution": "Yes - Stop Repository Contribution"
+      }
+    },
+    "DialogRepositoryContributionMissingSek": {
+      "vue": {
+        "shared_encryption_key_required": "Shared Encryption Key Required",
+        "store_sek_in_cc": "Please go to Ocean Cloud Connect and store your Shared Encryption Key in order to contribute to the repository. For more information, view our {link_start}Service Request Repository support article{link_end}.",
+        "cancel": "Cancel",
+        "go_to_cloud_connect": "Go to Cloud Connect"
+      }
+    },
+    "DialogSelectLicenceBundle": {
+      "vue": {
+        "select_ocean_licence": "Select the Ocean Licence you would like to add",
+        "close_dialog": "Close Dialog",
+        "price_3050": "$30.50 per month",
+        "patient_engagement_licence_basic": "Patient Engagement Licence (Basic)",
+        "includes_the_following": "Includes the following:",
+        "patient_messages": "Patient Messages*",
+        "reminders": "Reminders",
+        "clinic_support_staff": "*Up to 3 Clinic Support Staff can send messages at no additional cost.",
+        "add_assign": "Add & Assign",
+        "price_58": "$58.50 per month",
+        "patient_engagement_licence_plus": "Patient Engagement Licence (Plus)",
+        "online_booking": "Online Booking",
+        "price_28": "+$28.00 per month",
+        "upgrade_to_plus": "Upgrade a Basic Licence to Plus",
+        "upgrade_assign": "Upgrade & Assign"
+      }
+    },
+    "DialogSetRegionalFavourite": {
+      "vue": {
+        "regional_favourite_saved_title": "Set regional favourite",
+        "title_input_label": "Title",
+        "save_favourite_button": "Save Favourite",
+        "cancel_button": "Cancel"
+      }
+    },
+    "DialogSetRegionalFavouriteSuccess": {
+      "vue": {
+        "regional_favourite_saved_title": "Regional favourite saved",
+        "check_map_to_see_favourite": "Check the map to see this regional favourite. It should show within a radius of {radius} km. (The status is not displayed here.)",
+        "close_button": "Close"
+      }
+    },
+    "DialogValidateListingForReferrals": {
+      "vue": {
+        "validate_claimed_listing": "Validate Claimed Directory Listing",
+        "validating_confirms_listing_accuracy": "Validating a claimed listing confirms the listing’s accuracy and readiness for use within the Ocean Provider Network. If this listing is validated, the claiming site will be able to receive Patient Health Information (PHI) through this listing.",
+        "before_validating_you_must": "Before validating this listing, you must:",
+        "ensure_request_legitimate": "Ensure the user request is legitimate",
+        "confirm_accuracy": "Confirm the information provided is accurate and up-to-date",
+        "adhere_to_policies": "Adhere to all policies outlined by your Regional Authority program",
+        "select_one_to_proceed": "Select one of the following to proceed:",
+        "cancel": "Cancel",
+        "submit": "Submit",
+        "audit_log_required": "Audit Log Information Required",
+        "document_due_process": "To document that you are following due process for this listing’s validation, you must provide the following information for our audit logs:",
+        "how_did_you_contact": "How did you first establish telephone or in-person contact with the clinic representative claiming this listing?",
+        "are_they_well_known": "Are they a well-known customer?",
+        "validated_contact_information": "If not, did you use validated contact information?",
+        "include_name_and_phone": "Include the name and phone number you used to contact the representative. Explain why the representative approves of the user at the Ocean Site claiming this listing.",
+        "response_label": "Response",
+        "i_have_validated": "I have validated this listing according to my Regional Authority program's validation policy",
+        "listing_not_valid": "The listing or user claiming to represent this listing is not valid"
+      }
+    },
+    "DirectoryListingsHeader": {
+      "vue": {
+        "directory_listing_name": "Directory Listing Name",
+        "directory_listing_select_label": "Directory Listing Select",
+        "directory_listing_view_label": "View",
+        "directory_listing_unclaim_label": "Unclaim",
+        "directory_listing_delete_label": "Delete",
+        "directory_listing_add_label": "Add new listing",
+        "language": "Language",
+        "listing_name": "Listing Name"
+      }
+    },
+    "EnablementTab": {
+      "vue": {
+        "admin_settings": "Administrative Settings",
+        "eRequest_subscription_label": "eRequest subscription",
+        "eRequest_subscription_placeholder": "Select eRequest subscription",
+        "listing_status": "Listing status",
+        "accepting_eRequests_description": "Check this box when your listing is ready to accept eRequests. Billing is immediately applied based on the eRequest subscription selected above.",
+        "accepting_eRequests": "Accepting eRequests",
+        "test_mode_label": "Test mode",
+        "test_mode_description": "Use test mode to test your listing before going live.",
+        "enable_test_mode": "Enable test mode",
+        "hide_listing_non_test_users": "Hide this listing from users who are not using test mode",
+        "request_policies": "Request Policies",
+        "auto_split_requests": "Automatically split requests with multiple services into separate requests",
+        "request_providers_sign_in": "Requesting providers must sign in",
+        "require_physician_or_np": "Requester must be a physician or NP",
+        "prevent_resubmissions": "Prevent requesters from resubmitting requests",
+        "wait_dynamic_url": "Wait for a dynamic external URL on request creation",
+        "ask_user_communication_responsibility": "Ask the user which site should have communication responsibilities for the request",
+        "revert_communication_responsibility": "Revert communication responsibilities for the request to the previous owner",
+        "retain_communication_responsibility": "Retain communication responsibilities for the request at my site",
+        "manual_forward_policy": "Manual forward policy",
+        "regional_authority": "Regional Authority",
+        "pending_approval": "(Pending approval)",
+        "view_agreement_button": "View licence agreement",
+        "number_of_clinicians": "Number of clinicians",
+        "comment": "Comment",
+        "additional_details": "Additional Details",
+        "service_request_repository": "Service Request Repository",
+        "service_request_repository_description": "Service Request Repositories collect referral data to help health systems with resource planning and allocation.",
+        "contribute_data_to_repository": "Contribute data to repository",
+        "regional_authority_description": "A Regional Authority may approve and grant Ocean licenses under a provincial or other regional contract. If you are participating in a provincial program, you may be instructed to apply to a Regional Authority.",
+        "apply_regional_authority": "Apply to Regional Authority",
+        "licence_agreement_header": "Licence Agreement",
+        "licence_agreement_iframe_title": "Licence Agreement",
+        "version": "Version {version} ",
+        "close": "Close",
+        "integrations_section": "Integrations",
+        "external_service_id": "External service ID",
+        "integration": "Integration",
+        "none_selected": "None selected",
+        "cmd_admin": "CMD Admin",
+        "standard_clinical_listing": "Standard Clinical Listing",
+        "rapid_access_clinic": "Rapid Access Clinic",
+        "central_intake": "Central Intake",
+        "repository_requisitions": "Repository for Requisitions",
+        "laboratory": "Laboratory",
+        "esubmissions": "eSubmissions",
+        "listing_type": "Listing type",
+        "updated_in_ocean": "eRequests updated in Ocean",
+        "completed_no_appt": "eRequests completed without an appointment in Ocean",
+        "managed_externally": "eRequests managed externally and not updated in Ocean",
+        "eRequest_management": "eRequest management",
+        "encryption_last_updated": "Encryption last updated: {when}",
+        "listing_last_modified": "Listing last modified by: {whom} on {date} at {time}",
+        "legacy_subscription": "Legacy referral subscription",
+        "fees_covered_by_ra": "Fees covered by regional authority program",
+        "pay_per_request": "Pay per request received",
+        "monthly_subscription": "Monthly subscription",
+        "none_option": "None"
+      }
+    },
+    "HsoTab": {
+      "vue": {
+        "health_service_offerings_section_title": "Health Service Offerings",
+        "add_services_description": "Add services that your listing will support. You can further customize the display and function of any selected offering in the sections below.",
+        "add_health_services_label": "Add Health Service Categories",
+        "health_service_field_description": "Health Service Category: {serviceName}",
+        "program_name_label": "Offering name",
+        "remove_offering_button": "Remove offering",
+        "accept_econsults_label": "Accept eConsults",
+        "description_label": "Offering description",
+        "external_id": "Offering external service ID",
+        "specify_catchment_area_button": "Specify offering catchment area",
+        "patient_notification_email_label": "Offering notification email(s)",
+        "switch_to_manual": "Switch to manual entry",
+        "switch_to_listing_default": "Switch to listing default",
+        "public_email_label": "Offering public-facing email",
+        "website_label": "Offering website",
+        "languages_label": "Offering languages spoken",
+        "add_languages_placeholder": "Add languages",
+        "offering_request_form": "Offering request form",
+        "form_select_info": "Select an Ocean eForm to use as this offering’s request form. This form will be shown instead of the default eRequest form (if one is set).",
+        "requisition_files_label": "Offering requisition files",
+        "patient_handouts_label": "Offering patient handouts",
+        "hso_reference": "Reference: {hsoRef}",
+        "regional_favourite": "Regional favourite:",
+        "set_button": "Set",
+        "clear_button": "Clear",
+        "remove_health_service_title": "Remove health service",
+        "remove_service_are_you_sure": "Are you sure you want to remove this health service and its associated information?",
+        "yes_remove_button": "Yes - Remove",
+        "cancel_button": "Cancel",
+        "regional_favourite_cleared_title": "Regional favourite cleared",
+        "favourite_cleared_message": "The regional favourite is cleared. Check the map view to confirm. (The status is not displayed here.)",
+        "close_button": "Close",
+        "catchment_area_title": "Catchment Area",
+        "prompt_to_configure_catchment_area": "This service uses a catchment area. Please proceed to configure the catchment area in the subsequent dialog.",
+        "can_set_catchment_area_at_listing_level": "Alternatively, you may set a catchment area for the entire listing.",
+        "ok_button": "OK",
+        "yes_option": "Yes",
+        "no_option": "No",
+        "any_language": "Any language",
+        "english": "English",
+        "french": "French",
+        "arabic": "Arabic",
+        "armenian": "Armenian",
+        "italian": "Italian",
+        "chinese": "Chinese",
+        "accept_eorders_label": "Accept eOrders",
+        "accept_esubmissions_label": "Accept eSubmissions",
+        "accept_ereferrals_label": "Accept eReferrals",
+        "automatically_update_to_listing_email": "Automatically updates to match this listing’s eRequest notification email(s).",
+        "notification_email_description": "Which email(s) should receive eRequest notifications for this offering. Multiple emails must be separated by commas and semicolons.",
+        "use_self_reported_wait_time": "Use self-reported wait time",
+        "use_calculated_wait_time": "Use calculated wait time"
+      }
+    },
+    "ListingInformationTab": {
+      "vue": {
+        "offering_wait_time_management": "Offering Wait Time Management",
+        "optional_offering_configurations": "Offering Configurations (Optional)",
+        "listing_name": "Listing name",
+        "listing_purpose": "Listing Purpose",
+        "listing_purpose_description": "A Directory Listing provides contact information, additional details, and Health Service Offerings for a specialist, clinic, or other healthcare provider on the Ocean Healthmap. They also indicate if that physician/program/provider is accepting eRequests.",
+        "will_listing_accept_erequests": "Will this listing accept eRequests?",
+        "custom_button_label": "eReferral button label",
+        "modifies_send_button_description": "Modifies the send button and notification text for this listing.",
+        "erequest_notification_email": "eRequest notification email(s)",
+        "switch_to_manual": "Switch to manual entry",
+        "use_site_default": "Switch to site default",
+        "email_for_patient_notifications": "Patient contact email for eRequests",
+        "patient_facining_email_description": "Provided to patients in eRequest notification emails.",
+        "contact_information": "Contact Information",
+        "listing_address": "Listing address",
+        "address_line_1": "Address line 1",
+        "address_line_2": "Address line 2",
+        "city": "City",
+        "select_province": "Select province",
+        "province": "Province",
+        "postal_code": "Postal code",
+        "hide_address_healthmap": "Hide address on the Ocean Healthmap",
+        "public_facing_phone": "Public-facing phone",
+        "fax": "Fax",
+        "public_facing_email": "Public-facing email",
+        "website": "Website",
+        "organization": "Organization",
+        "organization_description": "The selected organization's title and logo will appear beside the listing's name in search results.",
+        "clinician_information": "Clinician Information",
+        "listing_provider_type": "Listing provider type",
+        "emr_assignment_message_group": "This section is only applicable if a Directory Listing is specific to a single healthcare provider.",
+        "emr_assignment_message": "This information affects EMR task assignment. It is stored and maintained independently from any Clinician Information stored within individual Ocean user accounts.",
+        "firstName": "First name",
+        "surname": "Surname",
+        "professional_id": "Professional ID",
+        "billing_number": "Billing number",
+        "role": "Role",
+        "select_role": "Select role",
+        "service_details": "Service Details",
+        "description": "Description",
+        "specify_catchment_area": "Specify catchment area",
+        "languages": "Languages spoken",
+        "add_languages_placeholder": "Add languages",
+        "default_appointment_medium": "Default appointment medium",
+        "select_appointment_medium": "Select appointment medium",
+        "appointment_labels": "Appointment labels",
+        "add_appointment_labels": "Add appointment labels",
+        "appointment_label_description": "Labels determine which appointment dates are used in wait time calculations.",
+        "default_request_form": "Default request form",
+        "form_select_info": "Select an Ocean eForm to use as the default request form for this listing’s Health Service Offerings.",
+        "central_intake_listing": "Route to Central Intake listing",
+        "central_intake_listing_description": "Central Intakes triage eConsults and/or eReferrals based on region and pathway. By adding a Central Intake to your listing, consults and/or referrals sent to this listing will be routed to the Central Intake.",
+        "alberta": "Alberta",
+        "british_columbia": "British Columbia",
+        "manitoba": "Manitoba",
+        "new_brunswick": "New Brunswick",
+        "newfoundland_labrador": "Newfoundland and Labrador",
+        "nova_scotia": "Nova Scotia",
+        "ontario": "Ontario",
+        "prince_edward_island": "Prince Edward Island",
+        "quebec": "Quebec",
+        "saskatchewan": "Saskatchewan",
+        "allied_health": "Allied Health Professional",
+        "executive_director": "Executive Director",
+        "family_physician": "Family Physician",
+        "physician_assistant": "Physician Assistant",
+        "medical_student": "Medical Student",
+        "moa_secretary": "MOA / Secretary",
+        "nurse": "Nurse",
+        "nurse_practitioner": "Nurse Practitioner",
+        "resident": "Resident",
+        "specialist": "Specialist",
+        "it_support": "IT Support",
+        "administrator": "Administrator",
+        "other_role": "Other",
+        "unspecified": "Unspecified",
+        "in_person": "In Person",
+        "telephone_call": "Telephone Call",
+        "virtual_visit_video": "Virtual Visit Video",
+        "home_visit": "Home Visit",
+        "no": "No",
+        "yes_esubmissions": "Yes, eSubmissions",
+        "yes_bc_lab_eorders": "Yes, BC Lab eOrders",
+        "yes_referrals": "Yes, eReferrals and/or eConsults",
+        "send_ereferral_title": "Send eReferral",
+        "send_eorder_title": "Send eOrder",
+        "send_esubmission_title": "Send eSubmission",
+        "none_option": "None",
+        "group_clinician": "Group",
+        "individual_clinician": "Individual",
+        "any_language": "Any language",
+        "english": "English",
+        "french": "French",
+        "arabic": "Arabic",
+        "armenian": "Armenian",
+        "italian": "Italian",
+        "chinese": "Chinese",
+        "automatically_update_to_site_email": "Automatically updates to match your site’s default notification email(s).",
+        "notification_email_description": "Multiple emails must be separated by commas or semicolons."
+      }
+    },
+    "TabHeader": {
+      "vue": {
+        "wait_1": "Wait 1",
+        "wait_2": "Wait 2",
+        "listing_information": "Listing Information",
+        "hso": "Health Service Offerings",
+        "enablement": "Enablement",
+        "test_mode_enabled": "Test mode enabled",
+        "accepting_eRequest": "Accepting eRequests",
+        "not_accepting_eRequest": "Not accepting eRequests"
+      }
+    },
+    "HsoWaitTimeConfiguration": {
+      "vue": {
+        "surgical_pathways": "For surgical pathways: ",
+        "surgical_pathways_description": "Wait 1 is the time until the initial consult. Wait 2 is the time until the surgery or intervention.",
+        "non_surgical_pathways": "For non-surgical and diagnostic pathways: ",
+        "non_surgical_pathways_description": "Wait 1 is the wait time.",
+        "self_report_wait_time": "Self-reported wait time",
+        "calculated_wait_time": "Calculated wait time",
+        "self_report_wait_time_description": "Self-reported wait times are prioritized over calculated wait times in the Healthmap search results for 6 months.",
+        "healthmap_search_results": "Healthmap search results",
+        "optional_context": "Optional field for providing context to your wait time",
+        "public_comment": "Public comment",
+        "managed_by_central_intake": "Managed by Central Intake",
+        "unspecified": "Unspecified",
+        "unknown": "Unknown",
+        "days": "1 day | {average} days",
+        "stats_last_calculated": "Last calculated: {lastCalculated}",
+        "unknown_note": "This organization has chosen to set their wait time as Unknown. Please contact the organization for more details on the wait time."
+      }
+    },
+    "LicenceManagementTableEntry": {
+      "vue": {
+        "subsites": "Subsites",
+        "subsite_selector": "subsite selector",
+        "reassign": "Reassign",
+        "remove": "Remove"
+      }
+    },
+    "UserHasDelegatesList": {
+      "vue": {
+        "clinical_delegates": "Clinical Delegates",
+        "delegate_description": "Clinical Delegates will have the ability to send eReferrals on behalf of the Ocean user. An Ocean user can have multiple Clinical Delegates.",
+        "select_clinical_delegate": "Select a clinical delegate",
+        "filter_users": "Filter users",
+        "no_options_available": "No users available.",
+        "add_option": "Add User",
+        "no_matching_options": "No matching users found.",
+        "no_items_yet": "No clinical delegates have been added yet.",
+        "add_item": "Add Clinical Delegate",
+        "no_matching_items": "No matching clinical delegates.",
+        "remove": "Remove",
+        "delegate": "delegate"
+      }
+    },
+    "UserIsDelegateForList": {
+      "vue": {
+        "delegate_for_users": "This user is a delegate for the following users:",
+        "add_as_delegate": "Add as Delegate",
+        "select_user_to_add_delegate": "Select which user to add {delegate} as a delegate for",
+        "no_items_yet": "No users have been added yet.",
+        "add_item": "Add User",
+        "no_matching_items": "No matching users.",
+        "remove": "Remove",
+        "select_user": "Select a user"
+      }
+    },
+    "WaitTimeStatsPreview": {
+      "vue": {
+        "average_wait_time": "Average Wait Time",
+        "standard_deviation": "Standard Deviation",
+        "sample_size": "Sample Size",
+        "exclusion_count": "Exclusion Count",
+        "hide_statistics": "Hide statistics",
+        "view_statistics": "View statistics",
+        "days": "{average} days",
+        "not_applicable": "N/A"
+      }
+    },
+    "DirectoryListingsEdit": {
+      "vue": {
+        "listing_not_validated_warning": "This listing is not validated to receive health information. Contact your Support Site or visit {link_start}ocean.tips/support{link_end} to request validation.",
+        "save": "Save",
+        "cancel": "Cancel",
+        "unable_to_save_title": "Unable to save Directory Listing",
+        "hso_error_dialog_description": "Directory Listings must have one or more Health Service Offerings to accept eRequests. Add a Health Service Offering to this listing and try again.",
+        "close": "Close",
+        "catchment_area_repository_error_dialog_description": "To make this listing a repository for requisitions, you must define a catchment area for this listing.",
+        "listing_purpose_changed_title": "Your listing purpose has changed",
+        "erequest_settings_removed": "You have indicated that this listing will no longer accept eRequests, so eRequest-specific settings have been removed. Are you sure you want to save?",
+        "confirm_and_save": "Confirm and save",
+        "catchment_area_address_error_title": "Catchment area required",
+        "catchment_area_address_error_dialog_description": "Listings with hidden addresses must specify a catchment area.",
+        "specify_catchment_area": "Specify catchment area",
+        "new_listing": "New Listing",
+        "sek_not_configured": "To make this listing a repository for requisitions, you must first {link_start}configure Cloud Connect{link_end} with this site's shared encryption key.",
+        "invalid_field": "This field is required.",
+        "invalid_billing_num": "Enter a valid billing number (5-12 characters).",
+        "invalid_professional_id": "Enter a valid professional ID (4-12 characters).",
+        "invalid_email": "Invalid email address.",
+        "invalid_phone": "Invalid phone number.",
+        "invalid_fax": "Invalid fax number.",
+        "invalid_email_notification": "Invalid email address(es).",
+        "catchment_area_error_dialog_description": "To make this listing a repository for requisitions, you must define a catchment area for this listing.",
+        "review_listing_type_message": "Review the Listing Type.",
+        "invalid_clinician_count": "Enter a non-negative whole number.",
+        "invalid_clinician_comment": "Enter a comment on why this listing has 0 clinicians."
+      }
+    },
+    "ListingWaitTimeConfiguration": {
+      "vue": {
+        "wait_time_display": "Wait Time Display",
+        "configure_listing": "Configure the listing information displayed within the Healthmap. Wait times should be kept current and reviewed regularly.",
+        "please_note": "Please Note:",
+        "wait_time_details": "For surgical pathways Wait 1 is the time until the initial consult. Wait 2 is the time until the surgery or intervention. For non-surgical and diagnostic pathways Wait 1 is the wait time.",
+        "more_information": "More Information on Ocean Wait Times",
+        "select_health_service_offering": "Select a Health Service Offering",
+        "select_your_health_service_offering": "Select Your Health Service Offering",
+        "view_listing": "View Listing",
+        "wait_1": "Wait 1",
+        "wait_2": "Wait 2",
+        "currently_displayed_wait_time": "Currently Displayed Wait {type1_or_2} Time in Healthmap Search",
+        "self_report_wait_time": "Self-Report Your Wait Time",
+        "optional_context": "Optional field for providing context to your wait-time",
+        "public_comments": "Public Comments",
+        "calculated_wait_time_statistics": "Calculated Wait Time Statistics",
+        "sample_size": "Sample Size",
+        "average_wait_time": "Average Wait Time",
+        "standard_deviation": "Standard Deviation",
+        "exclusion_count": "Exclusion Count",
+        "last_calculated": "Last Calculated",
+        "save": "Save",
+        "cancel": "Cancel",
+        "last_updated_on": "Last Updated on {date}",
+        "select_self_reported_wait_time": "Select Your Self-Reported Wait Time",
+        "manage_wait_time_information": "Manage Wait Time Information for {listing}",
+        "self_reported": "self-reported",
+        "default": "default",
+        "calculated": "calculated",
+        "current_type_note": "This is a {type} wait time.",
+        "change_type_note": "Click here to display your {type} Wait Time instead",
+        "note_managed_by_ci": "Please note that selecting the \"Managed by Central Intake\" option will remove the calculated wait time (if available) from the Healthmap search results",
+        "note_unknown": "Please note that selecting the \"Unknown\" option will remove the calculated wait time (if available) from the Healthmap search results for 6 months.",
+        "note_self_reported": "Please note that the self-reported wait time will override the calculated wait time (if available) from the Healthmap search results for 6 months.",
+        "unknown_note": "This organization has chosen to set their wait time as Unknown. Please contact the organization for more details on the wait time."
+      }
+    },
+    "ReferralExportCustomTemplateEdit": {
+      "vue": {
+        "learn_configure": "Learn how to configure your eForm and Export Template to include custom analytics in this",
+        "custom_export_template_guide": "Custom Export Template Setup Guide.",
+        "export_template_name": "Export Template Name",
+        "name": "Name",
+        "enter_field_names_description": "Please enter the field names separated by a comma in the order of the columns you'd like generated. Fields must be a core analytic, ax, or fx field.",
+        "column_fields": "Column Fields",
+        "fields_placeholder": "referralRef,ax_reasonForReferral,fx_referrerSpecialty,etc...",
+        "save": "Save",
+        "cancel": "Cancel",
+        "delete_template": "Delete Template",
+        "edit_template": "Edit {name}",
+        "new_export_template": "New Export Template",
+        "add_template_name": "Please add a template name.",
+        "template_name_too_long": "This template name is longer than the limit of 50 characters. Please enter a shorter name.",
+        "template_name_exists": "This template name already exists. Please enter a unique name.",
+        "specify_fields_for_export": "Please specify some fields for export.",
+        "invalid_fields": "Fields must be a core analytic, ax, or fx field and are case-sensitive. The following fields are invalid:"
+      }
+    },
+    "SiteLicenceManagement": {
+      "vue": {
+        "licence_management": "Licence Management",
+        "add_licence": "Add Licence",
+        "ocean_unlimited_banner": "This site has an Ocean Unlimited licence that covers unlimited patient messages and reminders for all providers.",
+        "same_ra_covering_pm_and_ob": "This site is covered by {RACoveringPM} for Patient Messages and Online Booking. Any licences enabled will be billed directly to the Regional Authority.",
+        "covering_pm_only": "This site is covered by {RACoveringPM} for Patient Messages. Any licences enabled will be billed directly to the Regional Authority.",
+        "covering_ob_only": "This site is covered by {RACoveringOB} for Online Booking. Any licences enabled will be billed directly to the Regional Authority.",
+        "licence_totals": "Licence Totals",
+        "patient_engagement_basic": "Patient Engagement Basic ($30.50/month)",
+        "patient_engagement_plus": "Patient Engagement Plus ($58.50/month)",
+        "patient_messages_overage": "Patient Messages ($30.50/month)",
+        "patient_messages_non_integrated": "Patient Messages ($30.50/month)",
+        "ocean_unlimited": "Ocean Unlimited (${oceanUnlimitedMonthlyFee}/month)",
+        "online_booking": "Online Booking ($28.00/month)",
+        "patient_messages_header": "Patient Messages",
+        "online_booking_emr_schedules_caption": "Online Booking EMR Schedules",
+        "online_booking_emr_schedules": "Online Booking EMR Schedules",
+        "patient_reminders_header": "Patient Reminders",
+        "online_booking_header": "Online Booking",
+        "online_booking_intro": "The EMR Schedules listed below are activated for use in Ocean Online Booking. To set up and configure Online Booking go to the",
+        "online_booking_settings_page": "Online Booking Settings page",
+        "emr_schedule_header": "EMR Schedule",
+        "subsite_header": "Subsite",
+        "provider_name_header": "Provider Name",
+        "username_header": "Username",
+        "unassigned_pm_licences": "Allocate [{n}] unassigned providers",
+        "unassigned_pr_licences": "Allocate [{n}] unassigned schedules",
+        "patient_messages_intro": "The providers listed below have been activated to send messages, attachments and forms to any patient using Ocean. When at least one provider is added, Clinic Support Staff are also automatically activated. To customize message templates for providers to use in patient messages go to the {link}Templates page{link}.",
+        "ocean_unlimited_activated": "All {link}users{link} at this site are activated to send Patient Messages due to Ocean Unlimited being enabled on this site.",
+        "reminders_activated": "The EMR Schedules listed below are activated for use with Ocean Patient Reminders. To configure and enable reminders go to the {link}Reminder Settings page{link}.",
+        "must_setup_cc_for_reminders": "To add EMR schedules for Patient Reminders you must first {link}set up Cloud Connect{link}.",
+        "activated_schedules_msg": "All EMR Schedules synced from {host} are activated to send Patient Reminders due to Ocean Unlimited being enabled on this site.",
+        "must_setup_cc_for_ob": "To add EMR schedules for Online Booking you must first {link}set up Cloud Connect{link}.",
+        "dr_name": "Dr. {firstName} {surname}",
+        "user_name": "{firstName} {surname}"
+      }
+    },
+    "SiteRegionalAuthority": {
+      "vue": {
+        "service_request_repository": "Service Request Repository",
+        "select_service_request_repository": "Select the external Service Request Repository used at the Regional Authority.",
+        "save_button": "Save",
+        "cancel_button": "Cancel",
+        "none": "None"
+      }
+    },
+    "SiteSettingsMain": {
+      "vue": {
+        "admin_settings": "Admin Settings",
+        "site_settings": "Site Settings",
+        "site_account": "Site Account",
+        "site_account_description": "View and configure basic information about your account such as site name, number, notification emails and timezone.",
+        "encryption": "Encryption",
+        "encryption_description": "Set up or view your site's shared encryption key.",
+        "users": "Users",
+        "users_description": "Invite and manage users at your site.",
+        "licence_management": "Licence Management",
+        "licence_management_description": "Add, remove, and manage licences for Online Booking, Patient Reminders and Patient Messages.",
+        "billing": "Billing",
+        "billing_description": "Setup your site's payer and view your site's credit balances and invoices.",
+        "reports": "Reports",
+        "reports_description": "Run reports on referral analytics, user activities, product usage and audit data.",
+        "locations": "Locations",
+        "organization": "Organization",
+        "organization_description": "Create an organization for use in the Ocean Healthmap or in Text Message Reminders.",
+        "directory_listings": "Directory Listings",
+        "directory_listings_description": "Create, update, or remove Directory Listings for use in the Ocean Healthmap, for eReferrals, Website Forms, or Online Booking.",
+        "additional_functionality": "Additional Functionality",
+        "regional_authority": "Regional Authority",
+        "regional_authority_description": "Configure the data contribution to repository if available.",
+        "site_features": "Site Features",
+        "site_features_description": "Enable or disable site features including Ocean Cloud Connect, eReferrals and more.",
+        "website_form_links": "Website Form Links",
+        "website_form_links_description": "Create or update Website Form Links and manage their licences.",
+        "canned_responses": "Canned Responses",
+        "canned_responses_description": "Create or update canned responses for messaging and booking comments in eReferrals.",
+        "integrations": "Integrations",
+        "emr_field_mapping": "EMR Field Mapping",
+        "emr_field_mapping_description": "Map data gathered in Ocean Forms to EMR Fields.",
+        "manage_credentials": "Manage Credentials",
+        "manage_credentials_description": "Setup or modify Ocean Open API or Ocean OAuth Credentials.",
+        "integrations_description": "Register custom integrations for patient engagement or eReferrals or view information for setting up SMART on FHIR."
+      }
+    },
+    "SiteSettingsUserEdit": {
+      "vue": {
+        "manage_user": "Manage User {userFullName}",
+        "delegates": "{userFullName}'s Delegates",
+        "delegate_for": "{userFullName} is a Delegate for"
+      }
+    },
+    "DialogConfirmSetSiteDefault": {
+      "vue": {
+        "update_site_default_template": "Update Site Default Template",
+        "confirm_message": "This template will become your site default template. Are you sure you'd like to proceed?",
+        "set_template_as_site_default": "Set Template as Site Default",
+        "cancel": "Cancel"
+      }
+    },
+    "DialogShowLicenceError": {
+      "vue": {
+        "emr_schedule_not_accessible": "EMR Schedule not Accessible",
+        "appointments_not_synced": "Appointments not Synced",
+        "emr_schedule_no_longer_accessible": "This EMR Schedule is no longer accessible by Ocean via Cloud Connect.",
+        "remove_licences_if_removed": "If the EMR Schedule has been removed from the EMR, please remove any licences associated with it to ensure you are no longer billed for it.",
+        "appointments_not_synced_message": "The appointments for this EMR Schedule are currently not being synced into Ocean via Cloud Connect.",
+        "ensure_proper_sync": "Please login to Cloud Connect and ensure this EMR Schedule’s appointments are synced to ensure proper use of Patient Reminders and/or Online Booking.",
+        "ok": "Ok"
+      }
+    },
+    "DialogTemplateAttemptDelete": {
+      "vue": {
+        "delete_template": "Delete Template",
+        "template_configured_in_rules": "This template is configured in the following patient reminder rules:",
+        "remove_template_before_deleting": "You must remove this template from all reminder rules before deleting it.",
+        "edit_reminder_rules": "Edit Reminder Rules",
+        "cancel": "Cancel"
+      }
+    },
+    "TemplateFormsList": {
+      "vue": {
+        "add_eform": "Add EForm",
+        "move_form_up": "Move form up in priority",
+        "preview": "Preview",
+        "remove": "Remove"
+      }
+    },
+    "TemplatesFromEmailCard": {
+      "vue": {
+        "email_friendly_name_and_from_address": "Email Friendly Name and From Address",
+        "default_friendly_name": "Ocean",
+        "customized_sender_address": "Your clinic's sender address has been customized to appear as:",
+        "not_customized_sender_address": "Your clinic's sender address has not been customized. It will appear as:",
+        "goto_site_settings": "Go to {link}Site Account{link} to edit these settings."
+      }
+    },
+    "TemplatesMain": {
+      "vue": {
+        "template_manager": "Template Manager",
+        "add_template": "Add Template",
+        "search": "Search",
+        "template_name_placeholder": "Template Name",
+        "no_items_yet": "No templates have been added yet.",
+        "add_item": "Add Template",
+        "no_matching_items": "No matching templates.",
+        "site_default": "Site Default",
+        "duplicate": "Duplicate",
+        "eforms": "eForms:"
+      }
+    },
+    "TemplatesSettingsEdit": {
+      "vue": {
+        "template_settings": "Template Settings",
+        "yes": "Yes",
+        "no": "No",
+        "lock_email_body": "Lock email body contents for non-admins",
+        "restrict_email_editing": "Restrict non-admin users from editing the email body",
+        "show_ocean_logo": "Show Ocean logo in the Health Messenger header",
+        "logo_description": "This logo is displayed in the top left of the patient-facing Health Messenger (Patient Messages, eForms) experience alongside your Organization Name.",
+        "alert_sender_once": "Alert sender about each patient once",
+        "alert_until_cleared": "Alert sender about all overdue patients until their status is cleared",
+        "overdue_notifications": "Overdue Notifications",
+        "notification_description": "Senders can request to be notified by email if a patient hasn't accessed their secure message within a certain number of days. When should these notifications be sent?",
+        "save": "Save",
+        "cancel": "Cancel"
+      }
+    },
+    "TemplatesTemplateEdit": {
+      "vue": {
+        "site_default": "Site Default",
+        "template_name_description": "The template name won't be visible to patients",
+        "template_name": "Template Name",
+        "name_placeholder": "Name",
+        "email_section": "Email",
+        "subject_line": "Subject Line",
+        "subject_placeholder": "Subject Line",
+        "salutation_description": "The keyword @ptPreferredOrFirstName will automatically populate the patient's name as it appears in your EMR",
+        "salutation": "Salutation",
+        "salutation_placeholder": "Salutation",
+        "email_body_description": "Text included in the email body is not secure and will not be recorded in the patient's chart. If a secure message or form has been added, the [weblink] will populate a secure link for the patient to access their content.",
+        "email_body": "Email Body",
+        "secure_message_section": "Secure Message",
+        "no_secure_message": "No secure message content",
+        "add_secure_message": "Add secure message content",
+        "include_secure_message": "Include a secure message",
+        "secure_message_description": "The text included in a secure message will be recorded in the patient's chart.",
+        "secure_message_content": "Secure Message Content",
+        "allow_response_description": "Patient can choose to type a response. The response will be recorded in the patient's chart and a notification will be sent to the sender.",
+        "allow_response": "Allow patient to reply",
+        "allow_attachment_response": "Allow patient to reply with attachment",
+        "attachment_update_notice": "Please update your Cloud Connect settings before allowing attachments. For assistance, please refer to this support article {link_start}Ocean Tips for Accuro Attachments.{link_end}",
+        "notify_sender_on_viewed": "Notify the sender when the patient has acknowledged the secure message",
+        "eforms_section": "eForms",
+        "no_eforms": "No eForms",
+        "add_eforms": "Add eForms",
+        "include_eforms": "Include eForms",
+        "notify_sender_on_completion": "Notify sender when patient has completed their forms",
+        "advanced_section": "Advanced",
+        "edit_advanced_settings": "Edit Advanced Settings",
+        "expiration_date": "Expiration Date",
+        "days_until_expiry": "Number of days until link expires",
+        "identity_verification_description": "To protect private health information in secure messages and forms, Ocean will prompt the patient to verify their identity with their birth date.  To require additional verification methods, please select from the options below.",
+        "identity_verification": "Identity Verification",
+        "access_password_label": "Access Password",
+        "access_password_placeholder": "Access password",
+        "alternate_id_field_label": "Alternate ID Field Label",
+        "redirect_url": "Redirect URL",
+        "redirect_url_placeholder": "Redirect URL",
+        "redirect_description_1": "Redirect patients after they complete their secure message session.",
+        "redirect_description_2": "Enter a URL to redirect patients after they complete a secure messaging session or form. Please note this will override Ocean's default redirect which includes important medicolegal language.",
+        "overdue_notification": "Overdue Notification",
+        "overdue_days_label": "Number of days before overdue notification",
+        "save": "Save",
+        "save_make_default": "Save & Make Site Default",
+        "cancel": "Cancel",
+        "delete_template": "Delete Template",
+        "yes": "Yes",
+        "no": "No",
+        "edit": "Edit {templateName}",
+        "edit_template": "Edit Template",
+        "default_subject": "A message from your healthcare provider",
+        "default_salutation": "Dear @ptPreferredOrFirstName,",
+        "default_email_body1": "You are receiving this email because you have a new message or form to complete from your healthcare provider.",
+        "default_email_body2": "Our clinic uses a secure, online technology called Ocean to communicate with patients regarding their health. To access your messages or forms, please click on the blue link below to open a secure browser window. You will be asked to confirm your identity by entering your birthdate before proceeding.",
+        "default_email_body3": "Note: This is an outgoing email only. Please do not reply to this email. If you have any questions or concerns, please contact our office directly.",
+        "default_email_body4": "To learn more about Ocean’s secure technology or to see  instructions on how to access your message, please visit ocean.tips/patients.",
+        "health_card_number": "Health card number",
+        "emr_number": "EMR number",
+        "access_password": "Access password",
+        "alternate_id": "Alternate ID",
+        "link_expires": "Link expires in {ctrl}{n} days{ctrl}",
+        "confirm_overdue_notification": "Notify the sender if the patient hasn't accessed their secure message in {ctrl}{n} days{ctrl}?",
+        "copy_of": "Copy of {templateName}",
+        "error_add_name": "Please add a template name",
+        "error_name_exists": "This template name already exists. Please enter a unique name",
+        "error_add_subject": "Please add a subject line to your email",
+        "error_add_email_body": "Please add content to the email body",
+        "error_configure_expiry": "Please configure when this link should expire",
+        "error_invalid_days": "Please enter a valid number of days before the link should expire",
+        "error_expiry_after_overdue": "The link expiry must be at least 2 days after the overdue response notification",
+        "error_add_secure_message": "Please add content to the secure message",
+        "error_add_password": "Please enter an access password",
+        "error_add_alternate_id": "Please enter an alternate ID field label",
+        "error_alternate_id_length": "Alternate ID Label must be less than 50 characters",
+        "error_redirect_url_protocol": "The redirect URL must begin with an http:// or https:// protocol",
+        "error_overdue_days": "Please enter a valid number of days before an overdue notification is sent",
+        "student_number": "Student Number"
+      }
+    },
+    "DialogConfirmNavigateToDirectoryListingsPage": {
+      "vue": {
+        "edit_directory_listing": "Edit Directory Listing",
+        "redirect_message": "You will be redirected to the Directory Listings page on Site {siteNum}. Please use your web browser's back button to return to this page after the listing is saved.",
+        "go_to_edit_directory_listing": "Go to Edit Directory Listing",
+        "cancel": "Cancel"
+      }
+    },
+    "DialogConfirmDeleteClinicLocation": {
+      "vue": {
+        "confirm_clinic_location_removal": "Confirm Clinic Location Removal",
+        "confirm_removal_message": "Are you sure you would like to remove this clinic location from your user?",
+        "remove_location": "Remove Location",
+        "cancel": "Cancel"
+      }
+    },
+    "UserClinicLocationRow": {
+      "vue": {
+        "site_default": "(site default)",
+        "edit": "Edit"
+      }
+    },
+    "UserSettingsClinicLocationEdit": {
+      "vue": {
+        "site_default": "Site Default",
+        "clinic_locations": "Clinic Locations",
+        "clinic_location_information": "Clinic Location information populates within the 'Referrer's Information' section of any eRequests submitted by you or your delegate(s).",
+        "location_type": "Location Type",
+        "create_clinic_location": "You may manually create one Clinic Location. Any additional Clinic Locations must be created using the details from the Ocean Site's",
+        "update_directory_listing": "If the Directory Listing information requires updating, contact the respective Ocean Site administrator.",
+        "select_directory_listing": "Select from Directory Listing(s)",
+        "enter_manually": "Enter manually",
+        "ocean_site": "Ocean Site",
+        "no_directory_listings": "No Directory Listings have been added at this site yet.",
+        "please_browse": "Please browse the {link1_start}Ocean Healthmap{link_end} to claim a listing to this Ocean site. Alternatively, you can add a new listing on the {link2_start}Directory Listings{link_end} page.",
+        "directory_listing": "Directory Listing",
+        "please_contact": "If the Directory Listing information requires updating, please contact the respective Ocean Site administrator.",
+        "edit": "Edit",
+        "location_name": "Location Name",
+        "address_line": "Address Line",
+        "address_line_2": "Address Line 2",
+        "city_label": "City",
+        "province_label": "Province",
+        "postal_code_label": "Postal Code",
+        "phone": "Phone",
+        "phone_description": "Extension can be included (eg 888-123-4567 x890)",
+        "fax": "Fax",
+        "fax_description": "Extension can be included (eg 888-123-4567 x890)",
+        "save": "Save",
+        "save_make_default": "Save & Make Site Default",
+        "cancel": "Cancel",
+        "remove_location": "Remove Location From User Profile",
+        "clinic_location": "{listing} (clinic location)",
+        "add_clinic_location": "Add Clinic Location",
+        "edit_clinic_location": "Edit Clinic Location",
+        "select_directory_listing_error": "Please select a directory listing",
+        "supply_location_name_error": "Please supply a location name",
+        "address": "address",
+        "city": "city",
+        "province": "province",
+        "postal_code": "postal code",
+        "phone_number": "phone number",
+        "fax_number": "fax number",
+        "valid_field_error": "Please provide a valid {field}",
+        "edit_listing_error": "Please edit the listing to include a valid {field}",
+        "contact_admin_error": "Please contact the appropriate site admin to update the listing with a valid {field}"
+      }
+    },
+    "UserSettingsContactInfoMain": {
+      "vue": {
+        "page_title": "Clinical Contact Information",
+        "details_description": "These details automatically populate the 'Referrer's Information' section of any eRequests (eReferrals, eConsults, etc.) sent by you or your delegate(s).",
+        "clinician_information": "Clinician Information",
+        "billing_description": "Ministry-assigned Number.",
+        "billing_label": "Billing #",
+        "professional_id_description": "Professional License number.",
+        "professional_id_label": "Professional ID",
+        "signature_description": "Provider's typed formal name (signifying digital signature).",
+        "signature_label": "Signature",
+        "clinic_locations_section": "Clinic Locations",
+        "clinic_locations_description": "Clinic Locations allow you to store addresses and contact information that can be easily applied to any eRequest you or your delegates send. You can specify a default Clinic Location for every Ocean Site you are a user of, allowing the details to automatically populate in your requests.",
+        "table_header_ocean_site": "Ocean Site",
+        "table_header_location_name": "Location Name",
+        "table_header_address": "Address",
+        "table_header_address_line_2": "Address Line 2",
+        "table_header_city": "City",
+        "table_header_province": "Province",
+        "table_header_postal_code": "Postal Code",
+        "table_header_phone": "Phone",
+        "table_header_fax": "Fax",
+        "table_header_actions": "Actions",
+        "table_caption": "Clinic locations for current user",
+        "table_name": "User clinic locations",
+        "add_location_button": "Add Location",
+        "save_button": "Save",
+        "cancel_button": "Cancel",
+        "billing_num_error": "Please enter a valid billing # (5-12 characters).",
+        "professional_id_error": "Please enter a valid professional ID (4-12 characters)."
+      }
+    },
+    "UserSettingsDelegateRow": {
+      "vue": {
+        "remove_button": "Remove"
+      }
+    },
+  "order_sets": {
+    "DialogDeleteOrderSet": {
+      "vue": {
+        "dialog_title": "Delete order set?",
+        "notify_delete_order_set": "\"{orderSetName}\" will be permanently deleted.",
+        "button_cancel": "Cancel",
+        "button_delete": "Delete order set"
+      }
+    },
+    "ManageOrderSetsTableEntry": {
+      "vue": {
+        "edit": "Edit",
+        "duplicate": "Duplicate",
+        "delete": "Delete",
+        "private": "Private",
+        "shared": "Shared"
+      }
+    },
+    "OrderSetsMain": {
+      "vue": {
+        "title": "Manage Order Sets",
+        "search": "Search",
+        "order_set_search_placeholder": "Name",
+        "table_caption": "Manage Order Sets",
+        "table_name": "Manage Order Sets",
+        "name_header": "Order set name",
+        "listing_header": "Listing",
+        "eform_header": "eForm",
+        "owner_header": "Owner",
+        "sharing_header": "Sharing"
+      }
+    }
+  }
+}
