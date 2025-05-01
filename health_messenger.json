@@ -134,4 +134,5 @@
 	"health_messenger.link_expired.message1": "We're sorry but this link has expired",
 	"health_messenger.link_expired.message2": "Messages in Ocean expire after a period of time for security and privacy reasons.",
 	"health_messenger.link_expired.message3": "You will need to ask your clinic to resend you the information this link contained if you still require it."
+	"health_messenger.this_is_a_new_key": "You need to translate this new key"
 }
