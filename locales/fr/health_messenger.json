@@ -133,5 +133,6 @@
 	"health_messenger.link_expired.heading1": "LIEN EXPIRÉ",
 	"health_messenger.link_expired.message1": "Nous sommes désolés mais ce lien a expiré",
 	"health_messenger.link_expired.message2": "Les messages dans l'océan expirent après une période de temps pour des raisons de sécurité et de confidentialité.",
-	"health_messenger.link_expired.message3": "Vous devrez demander à votre clinique de vous renvoyer l'information contenue dans ce lien si vous en avez toujours besoin."
+	"health_messenger.link_expired.message3": "Vous devrez demander à votre clinique de vous renvoyer l'information contenue dans ce lien si vous en avez toujours besoin.",
+	"health_messenger.new_string": "You need to translate this!"
 }
