@@ -64,7 +64,7 @@
 	"health_messenger.subheader.messages": "Messages",
 	"health_messenger.subheader.forms": "Forms",
 	"health_messenger.appointment_already_confirmed.appointment_details": "Appointment Details",
-	"health_messenger.appointment_already_confirmed.appointment_confirmed_description": "You previously confirmed this appointment. Please check if your clinic has sent you any new messages or forms to complete before your appointment.",
+	"health_messenger.appointment_already_confirmed.appointment_confirmed_description": "Вы подтвердили эту запись на приём. Проверьте наличие новых сообщений от Вашей клиники или форм для заполнения перед приёмом.",
 	"health_messenger.appointment_already_confirmed.continue_button": "Continue to Health Messenger",
 	"health_messenger.appointment_confirmation.appointment_reminder": "Appointment Reminder",
 	"health_messenger.appointment_confirmation.confirm_appointment_details": "Please confirm your upcoming appointment details scheduled at {place}",
